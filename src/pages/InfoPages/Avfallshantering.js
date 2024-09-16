@@ -393,8 +393,8 @@ const Avfallshantering = () => {
             hand om allt, från avfallssortering och transport till
             avfallshantering på en avfallsanläggning. Vi arbetar också med
             certifierade avfallsbolag för att säkerställa att allt avfall
-            återvinns på ett säkert och effektivt sätt. Kontakta oss på Dödsbo
-            Jouren idag för att ta hand om allt ditt avfall på ett säkert och
+            återvinns på ett säkert och effektivt sätt. Kontakta oss på Alla
+            Dödsbo idag för att ta hand om allt ditt avfall på ett säkert och
             miljövänligt sätt. Låt oss ta hand om allt så att du kan fokusera på
             det som verkligen betyder något i en svår tid.
           </p>

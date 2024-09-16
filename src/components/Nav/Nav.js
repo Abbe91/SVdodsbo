@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Nav.css";
-import CallIcon from '@material-ui/icons/Call';
+import CallIcon from "@material-ui/icons/Call";
 import { useAuth0 } from "@auth0/auth0-react";
 import { navlinks } from "../../utils/data";
 import { AiOutlineBars } from "react-icons/ai";
@@ -31,19 +31,22 @@ const Nav = () => {
     <>
       <nav>
         <div className="nav-logo" onClick={() => (window.location.href = "/")}>
+          <h2 className="logo">Alla</h2>
           <h2 className="logo">Dödsbo</h2>
-          <h2 className="logo">Jouren</h2>
         </div>
-     
-       <a href={`tel:${customerData.phone}`} style={{display:'flex',alignItems:'center', color:'#eabb12'}}>
-       <CallIcon style={{fontSize:'1.2rem'}}/>
-       <p style={{marginLeft:'0.3rem',fontSize:'0.8rem'}}>Ring</p>
-          </a>
-    
+
+        <a
+          href={`tel:${customerData.phone}`}
+          style={{ display: "flex", alignItems: "center", color: "#eabb12" }}
+        >
+          <CallIcon style={{ fontSize: "1.2rem" }} />
+          <p style={{ marginLeft: "0.3rem", fontSize: "0.8rem" }}>Ring</p>
+        </a>
+
         <div className="navbar" onClick={() => setShowNav(!showNav)}>
           <AiOutlineBars />
         </div>
-       
+
         <div className="nav-links">
           {navlinks.map((link) => {
             if (link.path) {
@@ -58,7 +61,7 @@ const Nav = () => {
                     fontWeight: 700,
                     marginRight: " 0.75rem",
                     opacity: 0.8,
-                    letterSpacing: "1px"
+                    letterSpacing: "1px",
                   }}
                 >
                   <Link
@@ -97,7 +100,7 @@ const Nav = () => {
                     border: "none",
                     color: "black",
                     margin: "0.3rem 0",
-                    fontSize: "1rem"
+                    fontSize: "1rem",
                   }}
                   key={link.id}
                 >
@@ -128,7 +131,7 @@ const Nav = () => {
                 height: "1.8rem",
                 marginTop: "2rem",
                 borderRadius: "5px",
-                fontWeight: "bold"
+                fontWeight: "bold",
               }}
               onClick={() => loginWithRedirect()}
             >
@@ -144,7 +147,7 @@ const Nav = () => {
                 height: "1.8rem",
                 marginTop: "2rem",
                 borderRadius: "5px",
-                fontWeight: "bold"
+                fontWeight: "bold",
               }}
               onClick={() =>
                 logout({ logoutParams: { returnTo: window.location.origin } })
@@ -167,7 +170,7 @@ const Nav = () => {
                 color: "black",
                 display: "flex",
                 alignItems: "center",
-                justifyContent: "center"
+                justifyContent: "center",
               }}
             >
               Dashboard
