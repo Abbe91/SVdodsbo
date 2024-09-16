@@ -1,34 +1,20 @@
 import React from "react";
-
+import proffs from "../../utils/images/hero-img.png";
+import "./Divider.css";
 const Divider = () => {
   return (
-    <div style={{ marginBottom: "3rem" }} className="main-comp-divider-comp">
+    <div className="divider-container">
       <img
-        style={{
-          objectFit: "contain",
-          width: "340px",
-          height: "300px",
-          marginLeft: "0.5rem"
-        }}
-        src="https://svenskcykling.se/wp-content/uploads/2021/01/slide-2.jpg"
+        className="divider-image"
+        src={proffs}
         alt="tömma lägenheter"
         title="tömma lägenheter"
       />
-      <section>
-        <h2 style={{ marginBottom: "0.5rem", marginLeft: "0.5rem" }}>
-          Få hjälp av proffsen!
-        </h2>
-        <p
-          style={{
-            fontSize: "0.9rem",
-            maxWidth: "440px",
-            marginBottom: "0.5rem",
-            marginLeft: "0.5rem",
-            marginRight: "0.5rem"
-          }}
-        >
-          Vårt team är välutbildat och erfaret, och vi arbetar snabbt och
-          effektivt för att underlätta för våra kunder under en tuff tid.
+      <section className="divider-text">
+        <h2 className="divider-heading">Låt experterna hjälpa dig!</h2>
+        <p className="divider-paragraph">
+          Vårt kunniga och erfarna team arbetar snabbt och effektivt för att
+          underlätta för våra kunder under svåra tider.
         </p>
       </section>
     </div>

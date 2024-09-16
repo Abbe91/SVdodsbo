@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import TableOfConent from "../toc/TableOfConent";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import "./MainUserComp.css";
 export const items = [
   {
     title: "Bortforsling",
@@ -64,6 +65,7 @@ export const items = [
     srcPath: "https://alladodsbo.se/sanera-dodsbo",
   },
 ];
+
 const MainUseComp = ({ formTitle }) => {
   const [showInneHall, setshowInneHall] = useState(false);
 
@@ -205,8 +207,6 @@ const MainUseComp = ({ formTitle }) => {
                   src={el.srcImg}
                   width={"60px"}
                   style={{
-                    background: "white",
-                    borderRadius: "50%",
                     padding: "0.8rem",
                   }}
                 />

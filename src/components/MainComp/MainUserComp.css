@@ -1,0 +1,50 @@
+/* Main Icon Styles */
+.mainComp .icon-wrapper {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white; /* Keeps the icon background consistent */
+  border-radius: 50%; /* Circular icon */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for a 3D effect */
+}
+
+.mainComp .icon-wrapper:hover {
+  transform: scale(1.1); /* Zoom-in effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Darker shadow on hover */
+}
+
+.mainComp .icon-wrapper img {
+  width: 100%; /* Make sure the icon fits the container */
+  height: auto;
+  border-radius: 50%; /* Circular image inside the circular background */
+  padding: 10px;
+}
+
+.mainComp .icon-wrapper a {
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-top: 0.5rem;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none; /* Remove underline */
+  transition: color 0.2s ease; /* Smooth transition for text color changes */
+}
+
+.mainComp .icon-wrapper a:hover {
+  color: #fff; /* No change in color, just for transition effect */
+}
+#root
+  > div
+  > div:nth-child(1)
+  > div.Hem
+  > section
+  > div.mainComp
+  > section:nth-child(2)
+  > div:nth-child(10) {
+  margin: 2.5rem !important;
+}
