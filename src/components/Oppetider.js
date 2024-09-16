@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Card, Typography, makeStyles, Box } from "@material-ui/core";
 import LottieBooking from "../LottieAnimation/LottieBooking";
-import clock from "../utils/animation/dodsbo-goteborg-alladodsbo.json";
+import clock from "../utils/animation/dodsbo-goteborg-dodsbojouren.json";
 
 const useStyles = makeStyles({
   divider: {
