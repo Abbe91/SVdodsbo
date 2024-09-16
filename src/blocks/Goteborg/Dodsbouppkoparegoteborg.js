@@ -69,7 +69,7 @@ const Dodsbouppkoparegoteborg = ({ videoText }) => {
         <link
           hrefLang="sv"
           rel="canonical"
-          href="https://dodsbojouren.com/dodsbo-uppkopare-goteborg"
+          href="https://alladodsbo.se/dodsbo-uppkopare-goteborg"
         />
       </Helmet>
       <div className="Nav">

@@ -48,7 +48,7 @@ const Bortforslingdodsbomolndal = ({ videoText }) => {
         <meta name="description" content={content.metaContent} />
         <link
           rel="canonical"
-          href="https://dodsbojouren.com/bortforsling-dodsbo-molndal"
+          href="https://alladodsbo.se/bortforsling-dodsbo-molndal"
         />
       </Helmet>
       <div className="Nav">

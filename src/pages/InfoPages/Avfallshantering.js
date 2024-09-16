@@ -68,7 +68,7 @@ const Avfallshantering = () => {
         <link
           hrefLang="sv"
           rel="canonical"
-          href="https://dodsbojouren.com/avfallshantering"
+          href="https://alladodsbo.se/avfallshantering"
         />
       </Helmet>
       <div className="Nav">

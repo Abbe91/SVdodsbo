@@ -65,12 +65,12 @@ const TommerDodsboPartille = ({ videoText }) => {
         <meta property="og:description" content={content.metaContent} />
         <meta
           property="og:url"
-          content="https://dodsbojouren.com/tommer-dodsbo-partille"
+          content="https://alladodsbo.se/tommer-dodsbo-partille"
         />
         <link
           hrefLang="sv"
           rel="canonical"
-          href="https://dodsbojouren.com/tommer-dodsbo-partille"
+          href="https://alladodsbo.se/tommer-dodsbo-partille"
         />
       </Helmet>
       <div className="Nav">

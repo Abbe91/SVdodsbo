@@ -26,7 +26,7 @@ const Rojadodsbogoteborg = ({ videoText }) => {
     formTitle: "Röja dödsbo Göteborg",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, försäljning, tömning, bortforsling, sanering, flytt, städning och röjning av dödsbo i Göteborg",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -48,7 +48,7 @@ const Rojadodsbogoteborg = ({ videoText }) => {
         <link
           hrefLang="sv"
           rel="canonical"
-          href="https://dodsbojouren.com/roja-dodsbo-goteborg"
+          href="https://alladodsbo.se/roja-dodsbo-goteborg"
         />
       </Helmet>
       <div className="Nav">

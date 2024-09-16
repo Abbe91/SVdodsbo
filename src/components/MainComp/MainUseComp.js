@@ -6,63 +6,63 @@ export const items = [
     title: "Bortforsling",
     alt: "bortforsling av dödsbo och möbler",
     srcImg: "https://www.svgrepo.com/show/85909/furniture.svg",
-    srcPath: "https://dodsbojouren.com/bortforsling-dodsbo"
+    srcPath: "https://alladodsbo.se/bortforsling-dodsbo",
   },
   {
     title: "Dödsbo",
     alt: "Värderar dödsbo, tömmer dödsbo",
     srcImg: "https://www.svgrepo.com/show/490798/house.svg",
-    srcPath: "https://dodsbojouren.com"
+    srcPath: "https://alladodsbo.se",
   },
   {
     title: "Städning",
     alt: "Flyttstädning och städning av dödsbo",
     srcImg: "https://www.svgrepo.com/show/287614/cleaning-mop.svg",
-    srcPath: "https://dodsbojouren.com/flyttstadning"
+    srcPath: "https://alladodsbo.se/flyttstadning",
   },
   {
     title: "Flytt",
     alt: "Bohagsflytt och trasnport",
     srcImg: "https://www.svgrepo.com/show/270968/truck.svg",
-    srcPath: "https://dodsbojouren.com/bohagsflytt"
+    srcPath: "https://alladodsbo.se/bohagsflytt",
   },
   {
     title: "Återvinning",
     alt: "återvinning och återvinningstjänster",
     srcImg: "https://www.svgrepo.com/show/230586/recycling-bin-recycle-bin.svg",
-    srcPath: "https://dodsbojouren.com/atervinning"
+    srcPath: "https://alladodsbo.se/atervinning",
   },
   {
     title: "Avfall",
     alt: "avfallshantering och avfallstjänster",
     srcImg: "https://www.svgrepo.com/show/484065/trash-can.svg",
-    srcPath: "https://dodsbojouren.com/avfallshantering"
+    srcPath: "https://alladodsbo.se/avfallshantering",
   },
   {
     title: "Uppköp",
     alt: "Uppköp av lösöre och dödsbo",
     srcImg: "https://www.svgrepo.com/show/480209/painting-1.svg",
-    srcPath: "https://dodsbojouren.com/uppkop-av-dodsbo"
+    srcPath: "https://alladodsbo.se/uppkop-av-dodsbo",
   },
   {
     title: "Tömning",
     alt: "Tömning av dödsboo och hushåll",
     srcImg:
       "https://www.svgrepo.com/show/307953/mover-going-downstairs-stairs-ladder-moving-boxes.svg",
-    srcPath: "https://dodsbojouren.com/tomning-av-dodsbo"
+    srcPath: "https://alladodsbo.se/tomning-av-dodsbo",
   },
   {
     title: "Värdering",
     alt: "Värdering av dödsbo, lösöre och hushåll",
     srcImg: "https://www.svgrepo.com/show/160931/judge.svg",
-    srcPath: "https://dodsbojouren.com/vardering-av-dodsbo"
+    srcPath: "https://alladodsbo.se/vardering-av-dodsbo",
   },
   {
     title: "Sanering",
     alt: "sanering av dödsbo och hushåll",
     srcImg: "https://www.svgrepo.com/show/393486/avatar-face-face-mask.svg",
-    srcPath: "https://dodsbojouren.com/sanera-dodsbo"
-  }
+    srcPath: "https://alladodsbo.se/sanera-dodsbo",
+  },
 ];
 const MainUseComp = ({ formTitle }) => {
   const [showInneHall, setshowInneHall] = useState(false);
@@ -74,7 +74,7 @@ const MainUseComp = ({ formTitle }) => {
           <h1
             style={{
               opacity: "0",
-              borderBottom: "1px solid white"
+              borderBottom: "1px solid white",
             }}
           >
             {formTitle}
@@ -87,7 +87,7 @@ const MainUseComp = ({ formTitle }) => {
               maxWidth: "90%",
               margin: "0 auto",
               fontSize: "1rem",
-              letterSpacing: "1px"
+              letterSpacing: "1px",
             }}
           >
             <a
@@ -185,7 +185,7 @@ const MainUseComp = ({ formTitle }) => {
             display: "flex",
             maxWidth: "700px",
             justifyContent: "center",
-            flexWrap: "wrap"
+            flexWrap: "wrap",
           }}
         >
           {items?.map((el, i) => {
@@ -196,7 +196,7 @@ const MainUseComp = ({ formTitle }) => {
                   display: "flex",
                   flexDirection: "column",
                   alignItems: "center",
-                  margin: "1.5rem 1.5rem"
+                  margin: "1.5rem 1.5rem",
                 }}
               >
                 <LazyLoadImage
@@ -207,7 +207,7 @@ const MainUseComp = ({ formTitle }) => {
                   style={{
                     background: "white",
                     borderRadius: "50%",
-                    padding: "0.8rem"
+                    padding: "0.8rem",
                   }}
                 />
                 <a
@@ -219,7 +219,7 @@ const MainUseComp = ({ formTitle }) => {
                     maxWidth: "100px",
                     marginTop: "0.3rem",
                     fontWeight: "bold",
-                    letterSpacing: "0.5px"
+                    letterSpacing: "0.5px",
                   }}
                 >
                   {el.title}

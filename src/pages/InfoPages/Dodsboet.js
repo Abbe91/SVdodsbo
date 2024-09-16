@@ -6,10 +6,10 @@ const useStyles = makeStyles({
   content: {
     textAlign: "center",
     width: "80%",
-    margin: "1rem auto"
+    margin: "1rem auto",
   },
   h4: {
-    margin: "0.5rem 0"
+    margin: "0.5rem 0",
   },
   btn: {
     height: "2.4rem",
@@ -21,8 +21,8 @@ const useStyles = makeStyles({
     borderRadius: "5px",
     margin: "1rem 0.5rem",
     letterSpacing: "1px",
-    cursor: "pointer"
-  }
+    cursor: "pointer",
+  },
 });
 const Dodsboet = () => {
   const classes = useStyles();
@@ -41,7 +41,7 @@ const Dodsboet = () => {
         <link
           hrefLang="sv"
           rel="canonical"
-          href="https://dodsbojouren.com/dodsboet"
+          href="https://alladodsbo.se/dodsboet"
         />
       </Helmet>
       <section className={classes.content}>
@@ -77,7 +77,7 @@ const Dodsboet = () => {
               cursor: "pointer",
               fontSize: "0.8rem",
               fontWeight: "bold",
-              marginBottom: "2rem"
+              marginBottom: "2rem",
             }}
           >
             Läs mer här om Dödsbodelägare på Skatteverkets hemsida

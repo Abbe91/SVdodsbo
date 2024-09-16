@@ -29,7 +29,7 @@ const BortforslingDodsboKungalv = ({ videoText }) => {
     formTitle: "Bortforsling dödsbo Kungälv",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, försäljning, tömning, sanering, flytt, städning och bortforsling av dödsbo i Kungälv",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -49,7 +49,7 @@ const BortforslingDodsboKungalv = ({ videoText }) => {
         <meta name="description" content={content.metaContent} />
         <link
           rel="canonical"
-          href="https://dodsbojouren.com/bortforsling-dodsbo-kungalv"
+          href="https://alladodsbo.se/bortforsling-dodsbo-kungalv"
         />
       </Helmet>
       <div className="Nav">

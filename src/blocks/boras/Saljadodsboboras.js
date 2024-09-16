@@ -29,7 +29,7 @@ const Saljadodsboboras = ({ videoText }) => {
     formTitle: "Sälja dödsbo Borås",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, tömning, bortforsling, sanering, flytt, städning och försäljning av dödsbo i Borås",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -48,10 +48,7 @@ const Saljadodsboboras = ({ videoText }) => {
         <meta charSet="utf-8" />
         <title>{content.metaTitle}</title>
         <meta name="description" content={content.metaContent} />
-        <link
-          rel="canonical"
-          href="https://dodsbojouren.com/salja-dodsbo-boras"
-        />
+        <link rel="canonical" href="https://alladodsbo.se/salja-dodsbo-boras" />
       </Helmet>
       <div className="Nav">
         <Nav />

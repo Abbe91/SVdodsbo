@@ -27,7 +27,7 @@ const Uppkopdodsbofrolunda = ({ videoText }) => {
     formTitle: "Uppköp dödsbo Västra Frölunda",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, försäljning, tömning, bortforsling, sanering, flytt, städning och uppköp av dödsbo i Frölunda",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -48,7 +48,7 @@ const Uppkopdodsbofrolunda = ({ videoText }) => {
         <meta name="description" content={content.metaContent} />
         <link
           rel="canonical"
-          href="https://dodsbojouren.com/uppkop-dodsbo-frolunda"
+          href="https://alladodsbo.se/uppkop-dodsbo-frolunda"
         />
       </Helmet>
       <div className="Nav">

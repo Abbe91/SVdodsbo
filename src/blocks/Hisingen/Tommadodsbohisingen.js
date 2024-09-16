@@ -28,7 +28,7 @@ const Tommadodsbohisingen = ({ videoText }) => {
     formTitle: "Tömma dödsbo Hisingen",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, försäljning, tömning, bortforsling, sanering, flytt och städ",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -50,11 +50,11 @@ const Tommadodsbohisingen = ({ videoText }) => {
         <meta property="og:description" content={content.metaContent} />
         <link
           rel="canonical"
-          href="https://dodsbojouren.com/tomma-dodsbo-hisingen"
+          href="https://alladodsbo.se/tomma-dodsbo-hisingen"
         />
         <meta
           property="og:url"
-          content="https://dodsbojouren.com/tomma-dodsbo-hisingen"
+          content="https://alladodsbo.se/tomma-dodsbo-hisingen"
         />
       </Helmet>
       <div className="Nav">

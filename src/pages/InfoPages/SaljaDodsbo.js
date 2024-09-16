@@ -6,10 +6,10 @@ const useStyles = makeStyles({
   content: {
     textAlign: "center",
     width: "80%",
-    margin: "1rem auto"
+    margin: "1rem auto",
   },
   h4: {
-    margin: "0.5rem 0"
+    margin: "0.5rem 0",
   },
   btn: {
     height: "2.4rem",
@@ -21,8 +21,8 @@ const useStyles = makeStyles({
     borderRadius: "5px",
     margin: "1rem 0.5rem",
     letterSpacing: "1px",
-    cursor: "pointer"
-  }
+    cursor: "pointer",
+  },
 });
 const SaljaDodsbo = () => {
   const classes = useStyles();
@@ -41,7 +41,7 @@ const SaljaDodsbo = () => {
         <link
           hrefLang="sv"
           rel="canonical"
-          href="https://dodsbojouren.com/salja-dodsbo"
+          href="https://alladodsbo.se/salja-dodsbo"
         />
       </Helmet>
       <section className={classes.content}>
@@ -171,7 +171,7 @@ const SaljaDodsbo = () => {
               cursor: "pointer",
               fontSize: "0.8rem",
               fontWeight: "bold",
-              marginBottom: "2rem"
+              marginBottom: "2rem",
             }}
           >
             Läs mer här om att sälja dödsbo på www.svenskfast.se

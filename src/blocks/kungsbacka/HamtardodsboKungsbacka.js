@@ -28,7 +28,7 @@ const HamtardodsboKungsbacka = ({ videoText }) => {
     formTitle: "Hämtar dödsbo Kungsbacka",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, försäljning, tömning, bortforsling, sanering, flytt, städning och hämtar dödsbo i Kungsbacka",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -48,7 +48,7 @@ const HamtardodsboKungsbacka = ({ videoText }) => {
         <meta name="description" content={content.metaContent} />
         <link
           rel="canonical"
-          href="https://dodsbojouren.com/hamtar-dodsbo-kungsbacka"
+          href="https://alladodsbo.se/hamtar-dodsbo-kungsbacka"
         />
       </Helmet>
       <div className="Nav">

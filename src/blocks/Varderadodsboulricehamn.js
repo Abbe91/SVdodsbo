@@ -28,7 +28,7 @@ const Varderadodsboulricehamn = ({ videoText }) => {
     formTitle: "Värdera dödsbo Ulricehamn",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, försäljning, tömning, bortforsling, sanering, flytt och städ i Ulricehamn",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -48,7 +48,7 @@ const Varderadodsboulricehamn = ({ videoText }) => {
         <meta name="description" content={content.metaContent} />
         <link
           rel="canonical"
-          href="https://dodsbojouren.com/vardera-dodsbo-ulricehamn"
+          href="https://alladodsbo.se/vardera-dodsbo-ulricehamn"
         />
       </Helmet>
       <div className="Nav">

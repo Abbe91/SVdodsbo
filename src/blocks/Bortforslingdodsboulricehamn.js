@@ -29,7 +29,7 @@ const Bortforslingdodsboulricehamn = ({ videoText }) => {
     formTitle: "Bortforsling dödsbo Ulricehamn",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, försäljning, tömning, bortforsling, sanering, flytt och städ i Ulricehamn",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -49,7 +49,7 @@ const Bortforslingdodsboulricehamn = ({ videoText }) => {
         <meta name="description" content={content.metaContent} />
         <link
           rel="canonical"
-          href="https://dodsbojouren.com/bortforsling-dodsbo-ulricehamn"
+          href="https://alladodsbo.se/bortforsling-dodsbo-ulricehamn"
         />
       </Helmet>
       <div className="Nav">

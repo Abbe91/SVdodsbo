@@ -28,7 +28,7 @@ const Flyttfirmaoffert = ({ videoText }) => {
     formTitle: "Flyttfirma Offert",
     subTitle2:
       "Din auktoriserade flyttfirma. Vi utför flyttar av lägenheter, flyttar av hus och kontorsflytt. Skriv till oss för en offert.",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -48,7 +48,7 @@ const Flyttfirmaoffert = ({ videoText }) => {
         <meta name="description" content={content.metaContent} />
         <link
           rel="canonical"
-          href="https://dodsbojouren.com/flyttfirma/flyttfirma-offert"
+          href="https://alladodsbo.se/flyttfirma/flyttfirma-offert"
         />
       </Helmet>
       <div className="Nav">

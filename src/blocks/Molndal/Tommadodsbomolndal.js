@@ -68,12 +68,12 @@ const Tommadodsbomolndal = ({ videoText }) => {
         <meta property="og:description" content={content.metaContent} />
         <meta
           property="og:url"
-          content="https://dodsbojouren.com/tomma-dodsbo-molndal"
+          content="https://alladodsbo.se/tomma-dodsbo-molndal"
         />
         <link
           hrefLang="sv"
           rel="canonical"
-          href="https://dodsbojouren.com/tomma-dodsbo-molndal"
+          href="https://alladodsbo.se/tomma-dodsbo-molndal"
         />
       </Helmet>
       <div className="Nav">

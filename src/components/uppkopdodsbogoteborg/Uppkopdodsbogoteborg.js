@@ -59,11 +59,11 @@ const Uppkopdodsbogoteborg = ({ videoText }) => {
         <link
           hrefLang="sv"
           rel="canonical"
-          href="https://dodsbojouren.com/uppkop-dodsbo-goteborg"
+          href="https://alladodsbo.se/uppkop-dodsbo-goteborg"
         />
         <meta
           property="og:url"
-          content="https://dodsbojouren.com/uppkop-dodsbo-goteborg"
+          content="https://alladodsbo.se/uppkop-dodsbo-goteborg"
         />
         <meta
           property="og:image"

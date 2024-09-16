@@ -48,7 +48,7 @@ const TommaHusKungsbacka = ({ videoText }) => {
         <meta name="description" content={content.metaContent} />
         <link
           rel="canonical"
-          href="https://dodsbojouren.com/tomma-hus/tomma-hus-kungsbacka"
+          href="https://alladodsbo.se/tomma-hus/tomma-hus-kungsbacka"
         />
       </Helmet>
       <div className="Nav">

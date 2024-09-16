@@ -28,7 +28,7 @@ const Bohagsflytt = ({ videoText }) => {
     formTitle: "Bohagsflytt",
     subTitle2:
       "Din auktoriserade hanterare av bohagsflytt, flytt av lägenheter, flytt av hus. Vi forslar bort och tömmer även hus och lägenheter",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -46,7 +46,7 @@ const Bohagsflytt = ({ videoText }) => {
         <meta charSet="utf-8" />
         <title>{content.metaTitle}</title>
         <meta name="description" content={content.metaContent} />
-        <link rel="canonical" href="https://dodsbojouren.com/bohagsflytt" />
+        <link rel="canonical" href="https://alladodsbo.se/bohagsflytt" />
       </Helmet>
       <div className="Nav">
         <Nav />

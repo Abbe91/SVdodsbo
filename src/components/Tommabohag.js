@@ -28,7 +28,7 @@ const Tommabohag = ({ videoText }) => {
     formTitle: "Tömma bohag",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, tömning, sanering, flytt, städ, bortforsling, värdering och försäljning av dödsbo.",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -49,7 +49,7 @@ const Tommabohag = ({ videoText }) => {
         <link
           hrefLang="sv"
           rel="canonical"
-          href="https://dodsbojouren.com/tomma-bohag"
+          href="https://alladodsbo.se/tomma-bohag"
         />
       </Helmet>
       <div className="Nav">

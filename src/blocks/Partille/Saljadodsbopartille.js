@@ -29,7 +29,7 @@ const Saljadodsbopartille = ({ videoText }) => {
     formTitle: "Sälja dödsbo Partille",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, tömning, bortforsling, sanering, flytt, städ och försäljning av dödsbo i Partille",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -49,7 +49,7 @@ const Saljadodsbopartille = ({ videoText }) => {
         <meta name="description" content={content.metaContent} />
         <link
           rel="canonical"
-          href="https://dodsbojouren.com/salja-dodsbo-partille"
+          href="https://alladodsbo.se/salja-dodsbo-partille"
         />
       </Helmet>
       <div className="Nav">

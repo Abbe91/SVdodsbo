@@ -27,7 +27,7 @@ const Flyttstadningtrollhattan = ({ videoText }) => {
     formTitle: "Flyttstädning Trollhättan",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, försäljning, tömning, bortforsling, sanering, flytt och flyttstädning i Trollhättan",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -47,7 +47,7 @@ const Flyttstadningtrollhattan = ({ videoText }) => {
         <meta name="description" content={content.metaContent} />
         <link
           rel="canonical"
-          href="https://dodsbojouren.com/flyttstadning-trollhattan"
+          href="https://alladodsbo.se/flyttstadning-trollhattan"
         />
       </Helmet>
       <div className="Nav">

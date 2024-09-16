@@ -27,7 +27,7 @@ const Saljadodsbogoteborg = ({ videoText }) => {
     formTitle: "Sälja dödsbo Göteborg",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, tömning, bortforsling, sanering, flytt, städning och försäljning av dödsbo i Göteborg",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -48,12 +48,12 @@ const Saljadodsbogoteborg = ({ videoText }) => {
         <meta property="og:description" content={content.metaContent} />
         <meta
           property="og:url"
-          content="https://dodsbojouren.com/salja-dodsbo-goteborg"
+          content="https://alladodsbo.se/salja-dodsbo-goteborg"
         />
         <link
           hrefLang="sv"
           rel="canonical"
-          href="https://dodsbojouren.com/salja-dodsbo-goteborg"
+          href="https://alladodsbo.se/salja-dodsbo-goteborg"
         />
       </Helmet>
       <div className="Nav">

@@ -29,7 +29,7 @@ const Dodsbofirmaboras = ({ videoText }) => {
     formTitle: "Dödsbo firma Borås",
     subTitle2:
       "Din auktoriserade dödsbo firma, bohag, uppköp, försäljning, tömning, bortforsling, sanering, flytt och städning av dödsbo i Borås",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -51,7 +51,7 @@ const Dodsbofirmaboras = ({ videoText }) => {
         <link
           hrefLang="sv"
           rel="canonical"
-          href="https://dodsbojouren.com/dodsbo-firma-boras"
+          href="https://alladodsbo.se/dodsbo-firma-boras"
         />
       </Helmet>
       <div className="Nav">

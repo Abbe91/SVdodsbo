@@ -70,7 +70,7 @@ const Uppkopdodsboale = ({ videoText }) => {
         <link
           hrefLang="sv"
           rel="canonical"
-          href="https://dodsbojouren.com/uppkop-dodsbo-ale"
+          href="https://alladodsbo.se/uppkop-dodsbo-ale"
         />
       </Helmet>
       <div className="Nav">

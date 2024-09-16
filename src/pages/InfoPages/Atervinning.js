@@ -31,7 +31,7 @@ const Atervinning = () => {
     },
   };
   const handleClick = () => {
-    window.location.href = "/dodsbojouren/gratiskollen";
+    window.location.href = "/alladodsbo/gratiskollen";
   };
   return (
     <section>
@@ -54,7 +54,7 @@ const Atervinning = () => {
         <link
           hrefLang="sv"
           rel="canonical"
-          href="https://dodsbojouren.com/atervinning"
+          href="https://alladodsbo.se/atervinning"
         />
         <meta
           property="og:description"

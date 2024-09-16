@@ -26,7 +26,7 @@ const Hjalpdodsboulricehamn = ({ videoText }) => {
     formTitle: "Hjälp dödsbo Ulricehamn",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, försäljning, tömning, bortforsling, sanering, flytt och städ i Ulricehamn",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -48,7 +48,7 @@ const Hjalpdodsboulricehamn = ({ videoText }) => {
         <link
           hrefLang="sv"
           rel="canonical"
-          href="https://dodsbojouren.com/hjalp-dodsbo-ulricehamn"
+          href="https://alladodsbo.se/hjalp-dodsbo-ulricehamn"
         />
       </Helmet>
       <div className="Nav">

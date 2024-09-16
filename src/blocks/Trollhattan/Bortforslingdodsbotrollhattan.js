@@ -27,7 +27,7 @@ const Bortforslingdodsbotrollhattan = ({ videoText }) => {
     formTitle: "Bortforsling av dödsbo Trollhättan",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, försäljning, tömning, sanering, flytt, städ och bortforsling av dödsbo i Trollhättan",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -47,7 +47,7 @@ const Bortforslingdodsbotrollhattan = ({ videoText }) => {
         <meta name="description" content={content.metaContent} />
         <link
           rel="canonical"
-          href="https://dodsbojouren.com/bortforsling-dodsbo-trollhattan"
+          href="https://alladodsbo.se/bortforsling-dodsbo-trollhattan"
         />
       </Helmet>
       <div className="Nav">

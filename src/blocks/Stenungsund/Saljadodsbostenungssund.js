@@ -27,7 +27,7 @@ const Saljadodsbostenungssund = ({ videoText }) => {
     formTitle: "Sälja dödsbo Stenungsund",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, försäljning, tömning, bortforsling, sanering, flytt, städning och sälja dödsbo i Stenungsund",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -47,7 +47,7 @@ const Saljadodsbostenungssund = ({ videoText }) => {
         <meta name="description" content={content.metaContent} />
         <link
           rel="canonical"
-          href="https://dodsbojouren.com/salja-dodsbo-stenungsund"
+          href="https://alladodsbo.se/salja-dodsbo-stenungsund"
         />
       </Helmet>
       <div className="Nav">

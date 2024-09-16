@@ -67,7 +67,7 @@ const Dodsbokopes = ({ videoText }) => {
         <meta property="og:description" content={content.metaContent} />
         <link
           rel="canonical"
-          href="https://dodsbojouren.com/dodsbo-kopes"
+          href="https://alladodsbo.se/dodsbo-kopes"
           hrefLang="sv"
         />
       </Helmet>

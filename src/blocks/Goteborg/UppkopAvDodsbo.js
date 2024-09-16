@@ -72,7 +72,7 @@ const UppkopAvDodsbo = ({ videoText }) => {
         <link
           hrefLang="sv"
           rel="canonical"
-          href="https://dodsbojouren.com/uppkop-av-dodsbo"
+          href="https://alladodsbo.se/uppkop-av-dodsbo"
         />
       </Helmet>
       <div className="Nav">

@@ -28,7 +28,7 @@ const Tommerlagenheterboras = ({ videoText }) => {
     formTitle: "Tömmer lägenheter Borås",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, försäljning, bortforsling, sanering, flytt, städning och tömning av lägenheter i Borås",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -49,7 +49,7 @@ const Tommerlagenheterboras = ({ videoText }) => {
         <meta name="description" content={content.metaContent} />
         <link
           rel="canonical"
-          href="https://dodsbojouren.com/tommer-lagenheter-boras"
+          href="https://alladodsbo.se/tommer-lagenheter-boras"
         />
       </Helmet>
       <div className="Nav">

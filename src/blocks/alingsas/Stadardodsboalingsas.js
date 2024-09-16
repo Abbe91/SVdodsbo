@@ -28,7 +28,7 @@ const Stadardodsboalingsas = ({ videoText }) => {
     formTitle: "Städar dödsbo Alingsås",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, försäljning, tömning, bortforsling, sanering, flytt och städning av dödsbo i Alingsås",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -49,7 +49,7 @@ const Stadardodsboalingsas = ({ videoText }) => {
         <link
           hrefLang="sv"
           rel="canonical"
-          href="https://dodsbojouren.com/stadar-dodsbo-alingsas"
+          href="https://alladodsbo.se/stadar-dodsbo-alingsas"
         />
       </Helmet>
       <div className="Nav">

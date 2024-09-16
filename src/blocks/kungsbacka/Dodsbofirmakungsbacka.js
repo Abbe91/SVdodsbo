@@ -29,7 +29,7 @@ const Dodsbofirmakungsbacka = ({ videoText }) => {
     formTitle: "Dödsbo firma Kungsbacka",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, försäljning, tömning, bortforsling, sanering, flytt och städ",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -49,7 +49,7 @@ const Dodsbofirmakungsbacka = ({ videoText }) => {
         <meta name="description" content={content.metaContent} />
         <link
           rel="canonical"
-          href="https://dodsbojouren.com/dodsbo-firma-kungsbacka"
+          href="https://alladodsbo.se/dodsbo-firma-kungsbacka"
         />
       </Helmet>
       <div className="Nav">

@@ -26,7 +26,7 @@ const Bortforsling = ({ videoText }) => {
     formTitle: "Bortforsling av hushåll och dödsbon",
     subTitle2:
       "Behöver du rensa ut gamla saker? Anlita oss för en enkel och prisvärd bortforsling",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -46,7 +46,7 @@ const Bortforsling = ({ videoText }) => {
         <meta name="description" content={content.metaContent} />
         <link
           rel="canonical"
-          href="https://dodsbojouren.com/bortforsling"
+          href="https://alladodsbo.se/bortforsling"
           hrefLang="sv"
         />
       </Helmet>

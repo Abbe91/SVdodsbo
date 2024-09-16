@@ -27,7 +27,7 @@ const Hjalpdodsboale = ({ videoText }) => {
     formTitle: "Hjälp dödsbo Ale",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, försäljning, tömning, bortforsling, sanering, flytt och städ i Ale",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -49,7 +49,7 @@ const Hjalpdodsboale = ({ videoText }) => {
         <link
           hrefLang="sv"
           rel="canonical"
-          href="https://dodsbojouren.com/hjalp-dodsbo-ale"
+          href="https://alladodsbo.se/hjalp-dodsbo-ale"
         />
       </Helmet>
       <div className="Nav">

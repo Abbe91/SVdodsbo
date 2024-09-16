@@ -93,7 +93,7 @@ const Atervinningsstation = () => {
         <link
           hrefLang="sv"
           rel="canonical"
-          href="https://dodsbojouren.com/atervinningsstation"
+          href="https://alladodsbo.se/atervinningsstation"
         />
       </Helmet>
       <div className="Nav">

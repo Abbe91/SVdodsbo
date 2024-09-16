@@ -29,7 +29,7 @@ const Saljadodsbomolndal = ({ videoText }) => {
     formTitle: "Sälja dödsbo Mölndal",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, försäljning, tömning, bortforsling, sanering, flytt, städning och sälja dödsbo Mölndal",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -49,7 +49,7 @@ const Saljadodsbomolndal = ({ videoText }) => {
         <meta name="description" content={content.metaContent} />
         <link
           rel="canonical"
-          href="https://dodsbojouren.com/salja-dodsbo-molndal"
+          href="https://alladodsbo.se/salja-dodsbo-molndal"
         />
       </Helmet>
       <div className="Nav">

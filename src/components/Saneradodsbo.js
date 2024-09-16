@@ -27,7 +27,7 @@ const Saneradodsbo = ({ videoText }) => {
     formTitle: "Sanera dödsbo",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, försäljning, tömning, flytt, städ, bortforsling, värderingoch sanering av dödsbo.",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -48,7 +48,7 @@ const Saneradodsbo = ({ videoText }) => {
         <link
           hrefLang="sv"
           rel="canonical"
-          href="https://dodsbojouren.com/sanera-dodsbo"
+          href="https://alladodsbo.se/sanera-dodsbo"
         />
       </Helmet>
       <div className="Nav">

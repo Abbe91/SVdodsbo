@@ -64,10 +64,7 @@ const Koperdodsbonlerum = ({ videoText }) => {
         <meta charSet="utf-8" />
         <title>{content.metaTitle}</title>
         <meta name="description" content={content.metaContent} />
-        <link
-          rel="canonical"
-          href="https://dodsbojouren.com/koper-dodsbo-lerum"
-        />
+        <link rel="canonical" href="https://alladodsbo.se/koper-dodsbo-lerum" />
       </Helmet>
       <div className="Nav">
         <Nav />

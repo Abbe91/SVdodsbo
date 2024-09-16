@@ -66,7 +66,7 @@ const Flyttstadningkungalv = ({ videoText }) => {
         <meta name="description" content={content.metaContent} />
         <link
           rel="canonical"
-          href="https://dodsbojouren.com/flyttstadning-i-kungalv"
+          href="https://alladodsbo.se/flyttstadning-i-kungalv"
         />
       </Helmet>
       <div className="Nav">

@@ -1,14 +1,14 @@
 import React from "react";
 import { Grid, Card, Typography, makeStyles, Box } from "@material-ui/core";
 import LottieBooking from "../LottieAnimation/LottieBooking";
-import clock from "../utils/animation/dodsbo-goteborg-dodsbojouren.json";
+import clock from "../utils/animation/dodsbo-goteborg-alladodsbo.json";
 
 const useStyles = makeStyles({
   divider: {
     width: "120px",
     height: "2px",
     background: "#0369a1",
-    margin: "1rem 0.2rem"
+    margin: "1rem 0.2rem",
   },
   root: {
     display: "flex",
@@ -18,8 +18,8 @@ const useStyles = makeStyles({
     letterSpacing: "1px",
     lineHeight: "35px",
     textAlign: "center",
-    marginBottom: "2rem"
-  }
+    marginBottom: "2rem",
+  },
 });
 const Oppetider = () => {
   const classes = useStyles();

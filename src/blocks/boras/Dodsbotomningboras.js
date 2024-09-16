@@ -28,7 +28,7 @@ const Dodsbotomningboras = ({ videoText }) => {
     formTitle: "Dödsbo tömning Borås",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, försäljning, tömning, bortforsling, sanering, flytt, städning och tömning av dödsbo i Borås",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -50,7 +50,7 @@ const Dodsbotomningboras = ({ videoText }) => {
         <link
           hrefLang="sv"
           rel="canonical"
-          href="https://dodsbojouren.com/dodsbo-tomning-boras"
+          href="https://alladodsbo.se/dodsbo-tomning-boras"
         />
       </Helmet>
       <div className="Nav">

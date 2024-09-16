@@ -26,7 +26,7 @@ const Tommerhemgoteborg = ({ videoText }) => {
     formTitle: "Tömmer hem Göteborg",
     subTitle2:
       "Vi tömmer, flyttar och städar hem, förråd, kontor och företag i Göteborg, eller helt vanlig flytt, städning eller sanering.",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -47,7 +47,7 @@ const Tommerhemgoteborg = ({ videoText }) => {
         <link
           hrefLang="sv"
           rel="canonical"
-          href="https://dodsbojouren.com/tommer-hem-goteborg"
+          href="https://alladodsbo.se/tommer-hem-goteborg"
         />
       </Helmet>
       <div className="Nav">

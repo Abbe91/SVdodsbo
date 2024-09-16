@@ -29,7 +29,7 @@ const Saljadodsbotrollhattan = ({ videoText }) => {
     formTitle: "Sälja dödsbo Trollhättan",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, tömning, bortforsling, sanering, flytt, städning och försäljning av dödsbo i Trollhättan",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -49,7 +49,7 @@ const Saljadodsbotrollhattan = ({ videoText }) => {
         <meta name="description" content={content.metaContent} />
         <link
           rel="canonical"
-          href="https://dodsbojouren.com/salja-dodsbo-trollhattan"
+          href="https://alladodsbo.se/salja-dodsbo-trollhattan"
         />
       </Helmet>
       <div className="Nav">

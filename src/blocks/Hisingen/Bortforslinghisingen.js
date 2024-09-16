@@ -28,7 +28,7 @@ const Bortforslinghisingen = ({ videoText }) => {
     formTitle: "Bortforsling dödsbo Hisingen",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, försäljning, tömning, bortforsling, sanering, flytt, städning och bortforsling av dödsbo i Hisingen",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -49,7 +49,7 @@ const Bortforslinghisingen = ({ videoText }) => {
         <meta name="description" content={content.metaContent} />
         <link
           rel="canonical"
-          href="https://dodsbojouren.com/bortforsling-dodsbo-hisingen"
+          href="https://alladodsbo.se/bortforsling-dodsbo-hisingen"
         />
       </Helmet>
       <div className="Nav">

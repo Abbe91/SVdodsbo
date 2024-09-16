@@ -29,7 +29,7 @@ const Tommadodsbofrolunda = ({ videoText }) => {
     formTitle: "Tömma dödsbo Västra Frölunda",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, försäljning, bortforsling, sanering, flytt, städning och tömning av dödsbo i Västra Frölunda",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 
@@ -50,7 +50,7 @@ const Tommadodsbofrolunda = ({ videoText }) => {
         <meta name="description" content={content.metaContent} />
         <link
           rel="canonical"
-          href="https://dodsbojouren.com/tomma-dodsbo-frolunda"
+          href="https://alladodsbo.se/tomma-dodsbo-frolunda"
         />
       </Helmet>
       <div className="Nav">
