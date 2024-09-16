@@ -1,12 +1,39 @@
 .erbjuder {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #00a7ac;
-  color: white;
-  width: 94%;
-  margin: 1rem auto;
+  font-family: Arial, sans-serif;
   padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.erbjuder h4 {
+  color: #333;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.erbjuder p {
+  color: #00a7ac;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+#tomma,
+#stada-dodsbo,
+#vardera-dodsbo,
+#bortforsling-dodsbo,
+#uppkop-dodsbo {
+  background: #00a7ac;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#tomma:hover,
+#stada-dodsbo:hover,
+#vardera-dodsbo:hover,
+#bortforsling-dodsbo:hover,
+#uppkop-dodsbo:hover {
+  background-color: #17676d;
+  cursor: pointer;
 }

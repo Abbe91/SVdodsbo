@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef, useState } from "react";
 import "./Kostnadsfri.css";
 import emailjs from "@emailjs/browser";
 
@@ -6,6 +6,7 @@ const Kostnadsfri = ({ vad, text }) => {
   const [sent, setSent] = useState(false);
   const [sending, setSending] = useState(false);
   const form = useRef();
+
   const handleSubmit = (e) => {
     setSending(true);
     e.preventDefault();
@@ -19,25 +20,28 @@ const Kostnadsfri = ({ vad, text }) => {
       .then(
         (result) => {
           if (result.text === "OK") {
-            console.log("email sent");
+            console.log("Email successfully sent");
             setSending(false);
             setSent(true);
           }
         },
         (error) => {
-          console.log(error.text);
+          console.log("Error sending email:", error.text);
         }
       );
   };
 
   return (
-    <div className="kostandri-cont" style={{ background: "#00a7ac" }}>
-      <div style={{ background: "#00a7ac", color: "white" }}>
+    <div className="kostnadfri-cont">
+      <div className="kostnadfri-content">
         <h2>Kostnadsfri {vad}</h2>
-        <p style={{ fontSize: "0.9rem", lineHeight: "22px" }}>
-          För att vi skall kunna ge dig ett så ärligt pris som möjligt för ditt
-          bohag, dödsbo, lösöre eller våra tjänster så erbjuder vi en
-          kostnadsfri värdering av ditt dödsbo eller bohag.
+        <p>
+          Vi erbjuder en kostnadsfri värdering för att ge dig en exakt och
+          rättvis bedömning av ditt {text}. Oavsett om det handlar om ett
+          dödsbo, bohag eller lösöre, vår professionella tjänst är designad för
+          att ge dig en transparent och detaljerad prisuppskattning. Kontakta
+          oss idag för att boka din kostnadsfria värdering och få klarhet i
+          värdet på din egendom.
         </p>
       </div>
     </div>

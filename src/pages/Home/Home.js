@@ -136,6 +136,7 @@ const Home = ({ videoText }) => {
             ditt
             <strong style={{ fontWeight: "700" }}> {mainquery}.</strong>
           </h4>
+          {/* **This is the button that is commented out ( I have to fix it to go to my booking system**
           <button
             type="button"
             onClick={() => setModalOpen(!modalOpen)}
@@ -143,11 +144,14 @@ const Home = ({ videoText }) => {
           >
             BOKA
           </button>
+          */}
         </div>
         <LottieBooking lotti={booking} height={400} width={400} />
+        {/* **This is the BookingModal component that is commented out ( I have to fix it to go to my booking system**
         {modalOpen && (
           <BookingModal modalOpen={modalOpen} setModalOpen={setModalOpen} />
         )}
+      */}
       </div>
 
       <div className="Kostnadsfri">
