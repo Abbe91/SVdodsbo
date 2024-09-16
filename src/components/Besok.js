@@ -12,8 +12,8 @@ const useStyles = makeStyles({
     alignItems: "center",
     textAlign: "center",
     "@media screen and (max-width: 800px)": {
-      flexDirection: "column"
-    }
+      flexDirection: "column",
+    },
   },
   para: {
     margin: "0.5rem 0",
@@ -21,9 +21,9 @@ const useStyles = makeStyles({
     lineHeight: "27px",
     maxWidth: "500px",
     "@media screen and (max-width: 800px)": {
-      fontSize: "0.9rem"
-    }
-  }
+      fontSize: "0.9rem",
+    },
+  },
 });
 const Besok = () => {
   const classes = useStyles();
@@ -36,7 +36,7 @@ const Besok = () => {
             margin: "0.7rem auto",
             width: "45%",
             background: "#0369a1",
-            height: "1px"
+            height: "1px",
           }}
         ></div>
         <p className={classes.para}>
@@ -49,12 +49,11 @@ const Besok = () => {
             värdering av dödsbo
           </a>{" "}
           och bohag inom Göteborg, Kungälv, Ale, Stenungsund och Tjörn. Vi har
-          säljkanalerna och egen butiker. Dödsbo Jouren är ett företag som
-          tänker miljösmart och på återanvändning. Vi skänker till
-          behandlingshem, olika typer av boenden, kyrkor,{" "}
-          <strong>hjälporganisationer</strong> och till behövande. Vi har valt
-          att skänka 100 kronor per uppdrag till olika hjälporganisationer.
-          Efter att vi har{" "}
+          säljkanalerna och egen butiker. Döddsbo Sv är ett företag som tänker
+          miljösmart och på återanvändning. Vi skänker till behandlingshem,
+          olika typer av boenden, kyrkor, <strong>hjälporganisationer</strong>{" "}
+          och till behövande. Vi har valt att skänka 100 kronor per uppdrag till
+          olika hjälporganisationer. Efter att vi har{" "}
           <a
             href="/tomma-dodsbo"
             style={{ color: "white" }}

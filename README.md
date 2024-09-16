@@ -1,6 +1,6 @@
 # Getting Started with Create React App
-# Copyrights, Content Copyright by Göteborg dödsbo tjänster AB
 
+# Copyrights, Content Copyright by DigitalTech
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -70,6 +70,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# landningssidorna
-Deploying in https://app.netlify.com/ 
 
+# landningssidorna
+
+Deploying in https://app.netlify.com/

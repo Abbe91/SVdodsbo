@@ -21,14 +21,14 @@ const Bortforslingdodsbomolndal = ({ videoText }) => {
   const newsData = useSelector(getNewsData);
   const bingNews = useSelector(getBingNews);
   const [content, setContent] = useState({
-    metaTitle: "Effektiv bortforsling av dödsbo i Mölndal - Dödsbo Jouren",
+    metaTitle: "Effektiv bortforsling av dödsbo i Mölndal - Döddsbo Sv",
     metaContent:
       "Behöver du hjålp med bortforsling av dödsbo i Mölndal? Vi erbjuder en smidig och professionell lösning för att ta hand om bortforsling av dödsbo i Mölndal.",
     query: "Bortforsling dödsbo Mölndal",
     formTitle: "Bortforsling dödsbo Mölndal",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, försäljning, tömning, bortforsling, sanering, flytt, städning och bortforsling av dödsbo i Mölndal",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 

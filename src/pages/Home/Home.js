@@ -27,7 +27,7 @@ const Home = ({ videoText }) => {
     formTitle: "Tömma dödsbo",
     subTitle2:
       "Din auktoriserade dödsbo hanterare av dödsbo, bohag, uppköp, försäljning, tömning, bortforsling, sanering, flytt och städ",
-    subTitle3: `Behöver du hjälp med ditt ${mainquery}?`
+    subTitle3: `Behöver du hjälp med ditt ${mainquery}?`,
   });
   const customerData = useSelector(getCustomerData);
   const services =
@@ -36,19 +36,19 @@ const Home = ({ videoText }) => {
   const articleStructuredData = {
     "@context": "https://schema.org",
     "@type": "RecyclingCenter",
-    name: "Dödsbo Jouren",
+    name: "Döddsbo Sv",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Hisingsgatan 10",
       addressLocality: "Göteborg",
       addressRegion: "Sweden",
       postalCode: "41702",
-      addressCountry: "SE"
+      addressCountry: "SE",
     },
     geo: {
       "@type": "GeoCoordinates",
       latitude: "57.71659765082482",
-      longitude: "11.94740491088092"
+      longitude: "11.94740491088092",
     },
     url: "www.dodsbojouren.com",
     telephone: "+46317539060",
@@ -62,16 +62,16 @@ const Home = ({ videoText }) => {
           "Thursday",
           "Friday",
           "Saturday",
-          "Sunday"
+          "Sunday",
         ],
         opens: "08:00",
-        closes: "18:00"
-      }
+        closes: "18:00",
+      },
     ],
     priceRange: "1000kr-20000kr",
     image: [
-      "https://images.pexels.com/photos/3651376/pexels-photo-3651376.jpeg?auto=compress&cs=tinysrgb&w=1300"
-    ]
+      "https://images.pexels.com/photos/3651376/pexels-photo-3651376.jpeg?auto=compress&cs=tinysrgb&w=1300",
+    ],
   };
   return (
     <div>

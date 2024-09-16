@@ -24,7 +24,7 @@ const Tommahusgoteborg = ({ videoText }) => {
     metaTitle:
       "Tömning av hus i Göteborg - Låt oss ta hand om hela processen åt dig med vår professionella och pålitliga service",
     metaContent:
-      "Behöver du hjälp med att tömma ett hus i Göteborg? Då är vi på Dödsbo Jouren det självklara valet. Vi tömmer hus i Göteborg med omnejd.",
+      "Behöver du hjälp med att tömma ett hus i Göteborg? Då är vi på Döddsbo Sv det självklara valet. Vi tömmer hus i Göteborg med omnejd.",
     query: "Tömma hus i Göteborg",
     formTitle: "Tömma hus i Göteborg",
     subTitle2:

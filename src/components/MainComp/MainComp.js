@@ -24,7 +24,7 @@ const MainComp = ({ subTitle5, text2, city, formTitle }) => {
             fontSize: "1.6rem",
             padding: "0.5rem",
             borderRadius: "3px",
-            maxWidth: "330px"
+            maxWidth: "330px",
           }}
         >
           Bästa alternativet för dig, miljön och plånboken
@@ -35,7 +35,7 @@ const MainComp = ({ subTitle5, text2, city, formTitle }) => {
             width: "330px",
             display: "flex",
             alignItems: "center",
-            position: "relative"
+            position: "relative",
           }}
         >
           <Autocomplete
@@ -56,7 +56,7 @@ const MainComp = ({ subTitle5, text2, city, formTitle }) => {
                   width: "330px",
                   height: "3rem",
                   borderRadius: "5px",
-                  padding: "0.5rem"
+                  padding: "0.5rem",
                 }}
                 {...params}
                 placeholder="Vad behöver du hjälp med?"
@@ -65,7 +65,7 @@ const MainComp = ({ subTitle5, text2, city, formTitle }) => {
                 InputProps={{
                   ...params.InputProps,
                   type: "search",
-                  disableUnderline: true
+                  disableUnderline: true,
                 }}
               />
             )}
@@ -81,7 +81,7 @@ const MainComp = ({ subTitle5, text2, city, formTitle }) => {
               height: "2.2rem",
               borderRadius: "3px",
               top: "30%",
-              width: "3rem"
+              width: "3rem",
             }}
           >
             <MdArrowForwardIos style={{ fontSize: "1rem" }} />
@@ -100,7 +100,7 @@ const MainComp = ({ subTitle5, text2, city, formTitle }) => {
             height: "300px",
             justifyContent: "center",
             display: "flex",
-            flexDirection: "column"
+            flexDirection: "column",
           }}
         >
           <h4 style={{ marginLeft: "0.5rem" }}>{subTitle5}</h4>
@@ -108,7 +108,7 @@ const MainComp = ({ subTitle5, text2, city, formTitle }) => {
             style={{
               maxWidth: "500px",
               fontSize: "0.9rem",
-              marginLeft: "0.5rem"
+              marginLeft: "0.5rem",
             }}
           >
             {text2}
@@ -117,7 +117,7 @@ const MainComp = ({ subTitle5, text2, city, formTitle }) => {
             style={{
               maxWidth: "500px",
               fontSize: "0.9rem",
-              marginLeft: "0.5rem"
+              marginLeft: "0.5rem",
             }}
           >
             Behöver du hjälp med att{" "}
@@ -148,7 +148,7 @@ const MainComp = ({ subTitle5, text2, city, formTitle }) => {
             justifyContent: "center",
             display: "flex",
             color: "white",
-            flexDirection: "column"
+            flexDirection: "column",
           }}
         >
           <h4 style={{ marginLeft: "0.5rem" }}>Dödsbo är krävande</h4>
@@ -156,7 +156,7 @@ const MainComp = ({ subTitle5, text2, city, formTitle }) => {
             style={{
               maxWidth: "500px",
               fontSize: "0.9rem",
-              marginLeft: "0.5rem"
+              marginLeft: "0.5rem",
             }}
           >
             {/* {text1} */}
@@ -171,7 +171,7 @@ const MainComp = ({ subTitle5, text2, city, formTitle }) => {
             kan vara en svår uppgift som kräver mycket tid och arbete. Det kan
             vara en känslomässigt påfrestande tid för de efterlevande, och det
             kan vara svårt att veta var man ska börja. Men med rätt hjälp och
-            stöd kan det bli enklare. Vi på Dödsbo Jouren specialiserar oss på
+            stöd kan det bli enklare. Vi på Döddsbo Sv specialiserar oss på
             hantering av dödsbo och kan hjälpa dig att ta hand om alla aspekter
             av processen.
           </p>
@@ -183,7 +183,7 @@ const MainComp = ({ subTitle5, text2, city, formTitle }) => {
             height: "300px",
             justifyContent: "center",
             display: "flex",
-            flexDirection: "column"
+            flexDirection: "column",
           }}
           id="wecando"
         >
@@ -192,7 +192,7 @@ const MainComp = ({ subTitle5, text2, city, formTitle }) => {
             style={{
               maxWidth: "500px",
               fontSize: "0.9rem",
-              marginLeft: "0.5rem"
+              marginLeft: "0.5rem",
             }}
           >
             {/* {text1} */}
@@ -235,7 +235,7 @@ const MainComp = ({ subTitle5, text2, city, formTitle }) => {
             height: "300px",
             justifyContent: "center",
             display: "flex",
-            flexDirection: "column"
+            flexDirection: "column",
           }}
         >
           <h4 style={{ marginLeft: "0.5rem" }}>Välutbildad personal</h4>
@@ -243,7 +243,7 @@ const MainComp = ({ subTitle5, text2, city, formTitle }) => {
             style={{
               maxWidth: "500px",
               fontSize: "0.9rem",
-              marginLeft: "0.5rem"
+              marginLeft: "0.5rem",
             }}
           >
             {/* {text1} */}
@@ -288,33 +288,33 @@ const MainComp = ({ subTitle5, text2, city, formTitle }) => {
 export default MainComp;
 const servicesArray = [
   {
-    title: "Bortforsling"
+    title: "Bortforsling",
   },
   {
-    title: "Tömning"
+    title: "Tömning",
   },
   {
-    title: "Värdering"
+    title: "Värdering",
   },
   {
-    title: "Städa"
+    title: "Städa",
   },
   {
-    title: "Flyttstäda"
+    title: "Flyttstäda",
   },
   {
-    title: "Flytta"
+    title: "Flytta",
   },
   {
-    title: "Återvinning"
+    title: "Återvinning",
   },
   {
-    title: "Avfallshantering"
+    title: "Avfallshantering",
   },
   {
-    title: "Uppköp av lösöre"
+    title: "Uppköp av lösöre",
   },
   {
-    title: "Uppköp av dödsbo"
-  }
+    title: "Uppköp av dödsbo",
+  },
 ];

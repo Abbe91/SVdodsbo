@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   email: "info@dodsbo-jouren.se",
   phone: "0707-19 84 29",
-  business: "Dödsbo Jouren",
+  business: "Döddsbo Sv",
   adress: "Västra Hamngatan 6",
   zip: "411 17",
   city: "Göteborg",
@@ -15,8 +15,8 @@ const initialState = {
     "Städning",
     "Värdering",
     "Uppköp",
-    "Sanering"
-  ]
+    "Sanering",
+  ],
 };
 
 const customerSlice = createSlice({
@@ -25,8 +25,8 @@ const customerSlice = createSlice({
   reducers: {
     setWeatherData: (state, { payload }) => {
       state.weatherData = payload;
-    }
-  }
+    },
+  },
 });
 export const { setWeatherData } = customerSlice.actions;
 export const getCustomerData = (state) => state.customer;

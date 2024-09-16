@@ -362,7 +362,7 @@ const Avfallshantering = () => {
               </p>
             </section>
             <p>
-              Vi på Dödsbo Jouren erbjuder professionell avfallshanteringstjänst
+              Vi på Döddsbo Sv erbjuder professionell avfallshanteringstjänst
               som kan hjälpa dig att återvinna på bästa sätt och minska din
               påverkan på miljön. Vi erbjuder avfallssortering, transport och
               återvinning av olika typer av avfall för att minimera
@@ -375,15 +375,15 @@ const Avfallshantering = () => {
         <div class="waste-disposal-services-description">
           <h3>Hur kan vi hjälpa dig med avfallshantering?</h3>
           <p>
-            Dödsbo Jouren är din bästa partner när det gäller avfallshantering.
-            Vi har många års erfarenhet av att hantera avfall i samband med
+            Döddsbo Sv är din bästa partner när det gäller avfallshantering. Vi
+            har många års erfarenhet av att hantera avfall i samband med
             dödsbon, och vi kan hjälpa dig att ta hand om allt avfall på ett
             säkert och effektivt sätt. När en älskad person går bort kan det
             vara överväldigande att ta hand om allt avfall som samlas upp. Det
             kan vara allt från kläder, möbler och elektronik till farliga
-            kemikalier och mediciner. Dödsbo Jouren kan hjälpa till att sortera,
+            kemikalier och mediciner. Döddsbo Sv kan hjälpa till att sortera,
             transportera och återvinna allt avfall på ett sätt som är säkert för
-            miljön och människor. Vi på Dödsbo Jouren har de rätta verktygen och
+            miljön och människor. Vi på Döddsbo Sv har de rätta verktygen och
             expertisen för att hantera alla typer av avfall. Vi kan också
             hantera farligt avfall, såsom mediciner och kemikalier, på ett
             säkert och lagligt sätt. Vi arbetar nära våra kunder för att

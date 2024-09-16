@@ -23,12 +23,12 @@ const TommaHusKungsbacka = ({ videoText }) => {
   const [content, setContent] = useState({
     metaTitle: "Tömma hus i Kungsbacka - Prisvärt & Pålitligt",
     metaContent:
-      "Behöver du hjälp med att Tömma hus i Kungsbacka? Vi på Dödsbo Jouren hjälper dig med att tömma ert hus i Kungsbacka.",
+      "Behöver du hjälp med att Tömma hus i Kungsbacka? Vi på Döddsbo Sv hjälper dig med att tömma ert hus i Kungsbacka.",
     query: "Tömma hus i Kungsbacka",
     formTitle: "Tömma hus i Kungsbacka",
     subTitle2:
       "Vi tömmer, flyttar och städar dödsbon, förråd, hus, lägenhet eller helt vanlig flytt, städning eller sanering.",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 

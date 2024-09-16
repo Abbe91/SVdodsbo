@@ -12,30 +12,30 @@ const useStyles = makeStyles({
     justifyContent: "space-evenly",
     "@media screen and (max-width: 800px)": {
       flexDirection: "column",
-      textAlign: "center"
-    }
+      textAlign: "center",
+    },
   },
   sec1: {
-    marginBottom: "1rem"
+    marginBottom: "1rem",
   },
   sec2: {
-    marginBottom: "2rem"
+    marginBottom: "2rem",
   },
   paragraph: {
     lineHeight: "28px",
     fontSize: "0.9rem",
     margin: "0 auto",
     "@media screen and (min-width: 800px)": {
-      width: "400px"
-    }
+      width: "400px",
+    },
   },
   title: {
     color: "white",
-    marginBottom: "0.5rem"
+    marginBottom: "0.5rem",
   },
   form: {
     display: "flex",
-    flexDirection: "column"
+    flexDirection: "column",
   },
   btn: {
     background: "#e3c148",
@@ -44,13 +44,13 @@ const useStyles = makeStyles({
     height: "2rem",
     borderRadius: "5px",
     marginTop: "0.3rem",
-    fontWeight: "bold"
+    fontWeight: "bold",
   },
   input: {
     height: "2rem",
     marginBottom: "0.3rem",
-    width: "100%"
-  }
+    width: "100%",
+  },
 });
 
 const Helhetslosningdodsbo = () => {
@@ -67,7 +67,7 @@ const Helhetslosningdodsbo = () => {
           enkel för dig. Kontakta oss idag för en kostnadsfri konsultation
           angående dödsbo och dödsbo tömning. Ett dödsbo är mer krävande än vad
           man tror. Idag ställs det ju många krav på sortering och avfall av
-          dödsbon. Vi på Dödsbo Jouren tar hela ansvaret från att sortera{" "}
+          dödsbon. Vi på Döddsbo Sv tar hela ansvaret från att sortera{" "}
           <a href="/dodsboet" style={{ color: "white" }} title="dödsboet">
             dödsboet
           </a>

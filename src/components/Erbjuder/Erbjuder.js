@@ -23,22 +23,22 @@ const Erbjuder = ({ city }) => {
         <h4>Städa dödsbo {city ? `i ${city}` : ""}</h4>
         <p>
           Behöver du hjälp med att städa ett dödsbo eller hushåll{" "}
-          {city ? `i ${city}` : ""}? Vi på Dödsbo Jouren erbjuder en
-          professionell och pålitlig städtjänst för att underlätta för dig i en
-          svår tid. Vårt erfarna och kompetenta team tar hand om allt från
-          grundlig rengöring av bostaden till bortforsling av skräp och sopor.
-          Vi ser till att arbetet utförs smidigt och effektivt, med respekt för
-          både egendom och känslor. Vi förstår vikten av att lämna en ren och
-          fräsch bostad efter oss och strävar alltid efter att uppfylla dina
-          förväntningar. Kontakta oss idag för att få en kostnadsfri offert och
-          ta det första steget mot en renare och mer organiserad bostad.
+          {city ? `i ${city}` : ""}? Vi på Döddsbo Sv erbjuder en professionell
+          och pålitlig städtjänst för att underlätta för dig i en svår tid. Vårt
+          erfarna och kompetenta team tar hand om allt från grundlig rengöring
+          av bostaden till bortforsling av skräp och sopor. Vi ser till att
+          arbetet utförs smidigt och effektivt, med respekt för både egendom och
+          känslor. Vi förstår vikten av att lämna en ren och fräsch bostad efter
+          oss och strävar alltid efter att uppfylla dina förväntningar. Kontakta
+          oss idag för att få en kostnadsfri offert och ta det första steget mot
+          en renare och mer organiserad bostad.
         </p>
       </div>
       <div id="vardera-dodsbo">
         <h4>Värdera dödsbo {city ? `i ${city}` : ""} </h4>
         <p>
           Om du behöver värdera ett dödsbo eller lösöre {"  "}
-          {city ? `i ${city}` : ""}, kan vi på Dödsbo Jouren hjälpa dig. Vi
+          {city ? `i ${city}` : ""}, kan vi på Döddsbo Sv hjälpa dig. Vi
           erbjuder en professionell och pålitlig värderingstjänst för att hjälpa
           dig att fastställa värdet på din egendom. Vårt erfarna team har
           omfattande kunskap om marknadspriser och kan säkerställa en rättvis
@@ -68,7 +68,7 @@ const Erbjuder = ({ city }) => {
       <div id="uppkop-dodsbo">
         <h4>Köper dödsbon {city ? `i ${city}` : ""}</h4>
         <p>
-          Vi på Dödsbo Jouren är specialiserade på att köpa dödsbo{" "}
+          Vi på Döddsbo Sv är specialiserade på att köpa dödsbo{" "}
           {city ? `i ${city} ` : ""}
           och vi köper alla typer av dödsbon. Vi förstår att hantering av ett
           dödsbo kan vara en svår och känslig uppgift och att det kan vara

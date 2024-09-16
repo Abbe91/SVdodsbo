@@ -12,8 +12,8 @@ const steps = ["Uppdraget", "Kontaktinfo"];
 const useStyles = makeStyles({
   root: {
     "& .MuiStepIcon-active": { color: "rgb(227, 193, 72)" },
-    "& .MuiStepIcon-completed": { color: "green" }
-  }
+    "& .MuiStepIcon-completed": { color: "green" },
+  },
 });
 const ForFragan = () => {
   const dispatch = useDispatch();
@@ -34,7 +34,7 @@ const ForFragan = () => {
         beskrivning: data.beskrivning,
         service: data.services[0],
         date: `${year}-${month}-${today}`,
-        adID: Number(Math.floor(Math.random() * 10000000))
+        adID: Number(Math.floor(Math.random() * 10000000)),
       });
       console.log("Document written with ID: ", docRef.id);
     } catch (error) {
@@ -68,7 +68,7 @@ const ForFragan = () => {
         <div
           style={{
             display: "flex",
-            alignItems: "center"
+            alignItems: "center",
           }}
         >
           <img
@@ -78,14 +78,14 @@ const ForFragan = () => {
               height: "20px",
               width: "20px",
               marginTop: "1rem",
-              marginLeft: "0.1rem"
+              marginLeft: "0.1rem",
             }}
           />
           <p
             style={{
               marginTop: "1rem",
               marginLeft: "0.5rem",
-              fontSize: "1rem"
+              fontSize: "1rem",
             }}
           >
             Kontaktuppgifter:
@@ -95,7 +95,7 @@ const ForFragan = () => {
           style={{
             display: "flex",
             flexDirection: "column",
-            marginTop: "0.5rem"
+            marginTop: "0.5rem",
           }}
           ref={form}
         >
@@ -152,7 +152,7 @@ const ForFragan = () => {
               background: "transparent",
               height: "2rem",
               border: "0.5px solid black",
-              borderRadius: "2px"
+              borderRadius: "2px",
             }}
             name="date"
           >
@@ -173,7 +173,7 @@ const ForFragan = () => {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          height: "400px"
+          height: "400px",
         }}
       >
         <AiOutlineCheckCircle
@@ -186,7 +186,7 @@ const ForFragan = () => {
             height: "1px",
             background: "black",
             width: "92%",
-            margin: "2.5rem 0"
+            margin: "2.5rem 0",
           }}
         ></div>
       </div>
@@ -213,7 +213,7 @@ const ForFragan = () => {
           <div
             style={{
               display: "flex",
-              alignItems: "center"
+              alignItems: "center",
             }}
           >
             <img
@@ -225,7 +225,7 @@ const ForFragan = () => {
                 height: "35px",
                 width: "35px",
                 marginTop: "1rem",
-                marginLeft: "1.5rem"
+                marginLeft: "1.5rem",
               }}
             />
             <p style={{ marginTop: "1rem", marginLeft: "0.5rem" }}>
@@ -238,7 +238,7 @@ const ForFragan = () => {
               height: "100%",
               maxWidth: "100%",
               margin: "0 auto",
-              padding: "1rem"
+              padding: "1rem",
             }}
           >
             {activeStep === 0 && (
@@ -247,14 +247,14 @@ const ForFragan = () => {
                   display: "flex",
                   flexDirection: "column",
                   marginTop: "1rem",
-                  marginLeft: "1rem"
+                  marginLeft: "1rem",
                 }}
               >
                 <label
                   style={{
                     fontSize: "1.1rem",
                     marginBottom: "0.5rem",
-                    marginTop: "1rem"
+                    marginTop: "1rem",
                   }}
                 >
                   Hur kan vi hjälpa till?
@@ -266,7 +266,7 @@ const ForFragan = () => {
                   style={{
                     height: "96%",
                     border: "1px solid black",
-                    maxWidth: "96%"
+                    maxWidth: "96%",
                   }}
                   placeholder="Beskriv det du behöver få hjälp med. Detaljera gärna lite mer, detta hälper oss att ge dig ett bättre svar och återkoppling. "
                 ></textarea>
@@ -282,12 +282,12 @@ const ForFragan = () => {
                   style={{
                     marginRight: "0.5rem",
                     width: "16px",
-                    height: "16px"
+                    height: "16px",
                   }}
                 />
                 <label style={{ fontSize: "0.7rem" }} htmlFor="accept">
-                  Jag godkänner att Dödsbo Jouren lagrar mina personuppgifter
-                  för att återkoppla till mig som kund eller användare.
+                  Jag godkänner att Döddsbo Sv lagrar mina personuppgifter för
+                  att återkoppla till mig som kund eller användare.
                 </label>
               </div>
             )}
@@ -306,7 +306,7 @@ const ForFragan = () => {
                       fontWeight: "bold",
                       color: "black",
                       letterSpacing: "0.5px",
-                      boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"
+                      boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
                     }}
                     onClick={() => {
                       setActiveStep(activeStep + 1);
@@ -328,7 +328,7 @@ const ForFragan = () => {
                       fontWeight: "bold",
                       color: "black",
                       letterSpacing: "0.5px",
-                      boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"
+                      boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
                     }}
                     onClick={() => {
                       if (form.current.checkValidity()) {
@@ -336,7 +336,9 @@ const ForFragan = () => {
                         handleSubmit();
                       } else {
                         // Handle the case when the form is not valid
-                        alert("Vänligen fyll i de obligatoriska fälten, inklusive Telefon.");
+                        alert(
+                          "Vänligen fyll i de obligatoriska fälten, inklusive Telefon."
+                        );
                       }
                     }}
                   >
@@ -357,42 +359,42 @@ export default ForFragan;
 const items = [
   {
     title: "Bortforsling",
-    url: "https://www.svgrepo.com/show/85909/furniture.svg"
+    url: "https://www.svgrepo.com/show/85909/furniture.svg",
   },
   {
     title: "Värdering",
-    url: "https://www.svgrepo.com/show/160931/judge.svg"
+    url: "https://www.svgrepo.com/show/160931/judge.svg",
   },
   {
     title: "Tömning",
-    url: "https://www.svgrepo.com/show/307953/mover-going-downstairs-stairs-ladder-moving-boxes.svg"
+    url: "https://www.svgrepo.com/show/307953/mover-going-downstairs-stairs-ladder-moving-boxes.svg",
   },
   {
     title: "Städa",
-    url: "https://www.svgrepo.com/show/287614/cleaning-mop.svg"
+    url: "https://www.svgrepo.com/show/287614/cleaning-mop.svg",
   },
   {
     title: "Flyttstäda",
-    url: "https://www.svgrepo.com/show/287614/cleaning-mop.svg"
+    url: "https://www.svgrepo.com/show/287614/cleaning-mop.svg",
   },
   {
     title: "Flytta",
-    url: "https://www.svgrepo.com/show/270968/truck.svg"
+    url: "https://www.svgrepo.com/show/270968/truck.svg",
   },
   {
     title: "Återvinning",
-    url: "https://www.svgrepo.com/show/230586/recycling-bin-recycle-bin.svg"
+    url: "https://www.svgrepo.com/show/230586/recycling-bin-recycle-bin.svg",
   },
   {
     title: "Avfallshantering",
-    url: "https://www.svgrepo.com/show/484065/trash-can.svg"
+    url: "https://www.svgrepo.com/show/484065/trash-can.svg",
   },
   {
     title: "Uppköp av lösöre",
-    url: "https://www.svgrepo.com/show/480209/painting-1.svg"
+    url: "https://www.svgrepo.com/show/480209/painting-1.svg",
   },
   {
     title: "Uppköp av dödsbo",
-    url: "https://www.svgrepo.com/show/490798/house.svg"
-  }
+    url: "https://www.svgrepo.com/show/490798/house.svg",
+  },
 ];

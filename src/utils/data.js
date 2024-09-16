@@ -9,80 +9,80 @@ export const navlinks = [
   {
     id: 2,
     label: "Tömning",
-    path: "/tomma-bohag"
+    path: "/tomma-bohag",
   },
   {
     id: 3,
     label: "Värdering",
-    path: "/vardera-dodsbo"
+    path: "/vardera-dodsbo",
   },
   {
     id: 4,
     label: "Städning",
-    path: "/stadning-av-dodsbo"
+    path: "/stadning-av-dodsbo",
   },
   {
     id: 5,
     label: "Flytt",
-    path: "/bohagsflytt"
+    path: "/bohagsflytt",
   },
   {
     id: 6,
     label: "Uppköp",
-    path: "/uppkop-av-dodsbo"
+    path: "/uppkop-av-dodsbo",
   },
   {
     id: 7,
     label: "Bortforsling",
-    path: "/bortforsling-dodsbo"
+    path: "/bortforsling-dodsbo",
   },
   {
     id: 8,
     label: "Återvinning",
-    path: "/atervinning"
+    path: "/atervinning",
   },
   {
     id: 9,
     label: "Avfallshantering",
-    path: "/avfallshantering"
+    path: "/avfallshantering",
   },
   {
     id: 10,
     label: "Återvinningsstation",
-    path: "/atervinningsstation"
+    path: "/atervinningsstation",
   },
   {
     id: 11,
     label: "Återvinningscentral",
-    path: "/atervinningscentral"
-  }
+    path: "/atervinningscentral",
+  },
 ];
 export const erbjuder = [
   {
     id: 22,
     title: "Dödsbo Hantering",
-    icon: <BiHomeAlt />
+    icon: <BiHomeAlt />,
   },
   {
     id: 55,
     title: "Värdering av Dödsbo och Bohag",
-    icon: <AiOutlineCalculator />
+    icon: <AiOutlineCalculator />,
   },
   {
     id: 33,
     title: "Flytt & Packning",
-    icon: <FaTruckMoving />
+    icon: <FaTruckMoving />,
   },
   {
     id: 43,
     title: "Städning, Flyttstäd & Sanering",
-    icon: <MdCleaningServices />
+    icon: <MdCleaningServices />,
   },
   {
     id: 51,
     title: "Uppköp & Försäljning",
-    icon: <AiOutlineCreditCard />
-  }
+    icon: <AiOutlineCreditCard />,
+  },
 ];
 
 export const customerReviews = [
@@ -92,7 +92,7 @@ export const customerReviews = [
     kund: "Marie Lindqvist",
     path: "/tomning-av-dodsbo",
     comment:
-      "Jag fick hjälp med at tömma mammas dödsbo och sedan städas dödsboet. Vi är jättenöjda med deras helhetslösning"
+      "Jag fick hjälp med at tömma mammas dödsbo och sedan städas dödsboet. Vi är jättenöjda med deras helhetslösning",
   },
   {
     id: 221,
@@ -100,7 +100,7 @@ export const customerReviews = [
     kund: "Liselott Andersson",
     path: "/uppkop-av-dodsbo",
     comment:
-      "De kom ut på en kostnadsfri värdering för uppköp av vårt dödsbo. Dödsbo Jouren köpte en hel del av oss och resten forsla dom bort och skänkte. Tack för hjälpen med vårt dödsbo."
+      "De kom ut på en kostnadsfri värdering för uppköp av vårt dödsbo. Döddsbo Sv köpte en hel del av oss och resten forsla dom bort och skänkte. Tack för hjälpen med vårt dödsbo.",
   },
   {
     id: 222,
@@ -108,7 +108,7 @@ export const customerReviews = [
     kund: "Bosse Eriksson",
     path: "/salja-dodsbo-goteborg",
     comment:
-      "Jag fick hjälp med att sälja lösöre ur mitt dödsbo och det gick hur bra som helst. Dödsbo Jourens helhetslösning passade mig perfekt när de sedan tömde dch städade dödsboet."
+      "Jag fick hjälp med att sälja lösöre ur mitt dödsbo och det gick hur bra som helst. Döddsbo Svs helhetslösning passade mig perfekt när de sedan tömde dch städade dödsboet.",
   },
   {
     id: 243,
@@ -116,7 +116,7 @@ export const customerReviews = [
     kund: "Jasem Hossan",
     path: "/bohagsflytt",
     comment:
-      "Kanon! Packning, Flytt och flyttstädning av vårt hus. Proffsigt, smidigt och billigt då vi fick äntliigen nyttja vår rut. Bohagsflytten gick hur bra som helst."
+      "Kanon! Packning, Flytt och flyttstädning av vårt hus. Proffsigt, smidigt och billigt då vi fick äntliigen nyttja vår rut. Bohagsflytten gick hur bra som helst.",
   },
   {
     id: 435,
@@ -124,7 +124,7 @@ export const customerReviews = [
     kund: "Petra Dahl",
     path: "/flyttstadning",
     comment:
-      "Vi fick hjälp med att flyttstäda vårt bohag och Dödsbo Jouren forslade bort lite gammla möbler vi hade i förrådet. Enkelt och prisvärt."
+      "Vi fick hjälp med att flyttstäda vårt bohag och Döddsbo Sv forslade bort lite gammla möbler vi hade i förrådet. Enkelt och prisvärt.",
   },
   {
     id: 5777,
@@ -132,7 +132,7 @@ export const customerReviews = [
     kund: "Kirsten Abbasi",
     path: "/bortforsling-dodsbo-goteborg",
     comment:
-      "Dödsbo Jouren hjälpte oss med att sortera och forsla bort vårt dödsbo. Vi fick lite avdrag på priset då de köpte lite lösöre ur dödsboet. Jag rekommenderar Dödsbo Jouren starkt."
+      "Döddsbo Sv hjälpte oss med att sortera och forsla bort vårt dödsbo. Vi fick lite avdrag på priset då de köpte lite lösöre ur dödsboet. Jag rekommenderar Döddsbo Sv starkt.",
   },
   {
     id: 6777775,
@@ -140,7 +140,7 @@ export const customerReviews = [
     kund: "John Pettersson",
     path: "/stadning-av-dodsbo",
     comment:
-      "Städningen av vårt dödsbo gick utmärkt. Vi fick ett bra pris för städet och det slängde lite gammla prylar åt oss. Bra firma verkligen."
+      "Städningen av vårt dödsbo gick utmärkt. Vi fick ett bra pris för städet och det slängde lite gammla prylar åt oss. Bra firma verkligen.",
   },
   {
     id: 7456,
@@ -148,7 +148,7 @@ export const customerReviews = [
     kund: "Ali Hussein",
     path: "/salja-dodsbo-goteborg",
     comment:
-      "Vi ville sälja vårt dödsbo i Göteborg och Dödsbo Jouren hjälpte oss med en helhetslösning där de köpte upp lösöre ur dödsboet, tömde dödsboet, forslade bort dödsboet och sedan slutstädade."
+      "Vi ville sälja vårt dödsbo i Göteborg och Döddsbo Sv hjälpte oss med en helhetslösning där de köpte upp lösöre ur dödsboet, tömde dödsboet, forslade bort dödsboet och sedan slutstädade.",
   },
   {
     id: 8688,
@@ -156,7 +156,7 @@ export const customerReviews = [
     kund: "Lisa Magnusson",
     path: "/tomma-dodsbo-goteborg",
     comment:
-      "De tömde vårt dödsbo i Göteborg vilket gick utmärkt. Dödsbo Jouren gav oss även en liten slant för våra gammla prylar."
+      "De tömde vårt dödsbo i Göteborg vilket gick utmärkt. Döddsbo Sv gav oss även en liten slant för våra gammla prylar.",
   },
   {
     id: 996986,
@@ -164,7 +164,7 @@ export const customerReviews = [
     kund: "Britt Marie",
     path: "/stada-dodsbo-goteborg",
     comment:
-      "Trevliga killar som gjorde ett jättebra jobb med att städa vårt dödsbo i Göteborg."
+      "Trevliga killar som gjorde ett jättebra jobb med att städa vårt dödsbo i Göteborg.",
   },
   {
     id: 15460,
@@ -172,7 +172,7 @@ export const customerReviews = [
     kund: "Tony Sloth",
     path: "/uppkop-dodsbo-goteborg",
     comment:
-      "Vi fick en kostnadsfri värdering och sedan gjord de ett uppköp av vårt dödsbo i Göteborg."
+      "Vi fick en kostnadsfri värdering och sedan gjord de ett uppköp av vårt dödsbo i Göteborg.",
   },
   {
     id: 146461,
@@ -180,14 +180,14 @@ export const customerReviews = [
     kund: "Liselott Thor",
     path: "/uppkop-dodsbo-goteborg",
     comment:
-      "Dödsbo Jouren hjälpte oss med att köpa upp lösöre ur vårt dödsbo. De köpte en hel del."
+      "Döddsbo Sv hjälpte oss med att köpa upp lösöre ur vårt dödsbo. De köpte en hel del.",
   },
   {
     id: 166462,
     service: "Köper dödsbo Göteborg",
     kund: "Per-Olof Andersson",
     path: "/uppkop-dodsbo-goteborg",
-    comment: "Bra firma i Göteborg som köper dödsbo och tömmer samt städar"
+    comment: "Bra firma i Göteborg som köper dödsbo och tömmer samt städar",
   },
   {
     id: 166463,
@@ -195,7 +195,7 @@ export const customerReviews = [
     kund: "Janne Jansson",
     path: "/flyttstadning-i-goteborg",
     comment:
-      "Vi fick hjälp med att röja vårt dödsbo och sen gjorde Dödsbo Jouren flyttstädning av dödsboet. Enkel kommunikation och smidigt."
+      "Vi fick hjälp med att röja vårt dödsbo och sen gjorde Döddsbo Sv flyttstädning av dödsboet. Enkel kommunikation och smidigt.",
   },
   {
     id: 166466868,
@@ -203,6 +203,6 @@ export const customerReviews = [
     kund: "Karl Einersson",
     path: "/roja-dodsbo-goteborg",
     comment:
-      "Röjning av dödsboet gick som vi ville. Dödsbo Jouren skötte allt trots att vi inte kunde vara på plats. Pålitligt företag och rekommenderar dem starkt. "
-  }
+      "Röjning av dödsboet gick som vi ville. Döddsbo Sv skötte allt trots att vi inte kunde vara på plats. Pålitligt företag och rekommenderar dem starkt. ",
+  },
 ];

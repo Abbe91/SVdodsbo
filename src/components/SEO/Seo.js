@@ -56,13 +56,13 @@ const locales = [
   { id: 52, city: "Majorna" },
   { id: 53, city: "Askim" },
   { id: 54, city: "Hovås" },
-  { id: 60, city: "Ulricehamn" }
+  { id: 60, city: "Ulricehamn" },
 ];
 const useStyles = makeStyles({
   root: {
     display: "flex",
     overflowX: "scroll",
-    width: "100%"
+    width: "100%",
   },
   card: {
     width: "355px",
@@ -71,8 +71,8 @@ const useStyles = makeStyles({
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    justifyContent: "center"
-  }
+    justifyContent: "center",
+  },
 });
 const Seo = () => {
   const classes = useStyles();
@@ -86,7 +86,7 @@ const Seo = () => {
               {local.city}.
             </h5>
             <p style={{ fontSize: "0.75rem", lineHeight: "22px" }}>
-              Välkommen till oss på Dödsbo Jouren i {local.city} ! Vi hjälper er
+              Välkommen till oss på Döddsbo Sv i {local.city} ! Vi hjälper er
               gärna om ni har ett behov av att få ett dödsbo värderat i{" "}
               {local.city}, dödsbo uppköpt i {local.city}, dödsbo tömt i{" "}
               {local.city}, dödsbo bortforslat i {local.city} eller städa dödsbo

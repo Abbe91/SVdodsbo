@@ -14,19 +14,19 @@ const useStyles = makeStyles({
     width: "100%",
     alignItems: "center",
     "@media screen and (max-width: 800px)": {
-      height: "860px"
-    }
+      height: "860px",
+    },
   },
   contentContainer: {
-    maxWidth: "50%"
+    maxWidth: "50%",
   },
   cardContainer: {
     margin: "1rem 0",
     background: "white",
-    borderRadius: "5px"
+    borderRadius: "5px",
   },
   reviews: {
-    overflowY: "scroll"
+    overflowY: "scroll",
   },
   card: {
     height: "260px",
@@ -38,15 +38,15 @@ const useStyles = makeStyles({
     justifyContent: "center",
     borderRadius: "5px",
     "@media screen and (min-width: 800px)": {
-      width: "600px"
-    }
+      width: "600px",
+    },
   },
   divider: {
     height: "1px",
     background: "#0369a1",
     width: "140px",
-    margin: "0.5rem 0"
-  }
+    margin: "0.5rem 0",
+  },
 });
 const Recensioner = () => {
   const classes = useStyles();
@@ -55,7 +55,7 @@ const Recensioner = () => {
       <section className={classes.contentContainer}>
         <h2 style={{ margin: "1rem 0" }}>Längst erfarenhet</h2>
         <p style={{ lineHeight: "26px", marginBottom: "1rem" }}>
-          Vi på Dödsbo Jouren är det självklara valet för hantering av bohag och
+          Vi på Döddsbo Sv är det självklara valet för hantering av bohag och
           dödsbo med över 50 års erfarenhet tillsammans är vi helt övetygade om
           att vi kan erbjuda dig det bästa upplägget för ditt bohag, dödsbo och
           din plånbok. Vårt upptagningsområde sträcker sig över hela Västra
@@ -82,7 +82,7 @@ const Recensioner = () => {
                   fontSize: "0.75rem",
                   maxWidth: "260px",
                   lineHeight: "21px",
-                  marginBottom: "0.5rem"
+                  marginBottom: "0.5rem",
                 }}
               >
                 {review.comment}
