@@ -7,6 +7,7 @@ import { useDispatch } from "react-redux";
 import Faq from "../faq/Faq";
 import { MdArrowForwardIos } from "react-icons/md";
 import { setServices } from "../../redux-toolkit/snabbkollenSlice";
+import HeroImage from "../../utils/images/hero-img.png";
 const MainComp = ({ subTitle5, text2, city, formTitle }) => {
   const Divider = lazy(() => import("./Divider"));
   const Arbetsprocessen = lazy(() => import("../Arbetsprocessen"));
@@ -16,76 +17,48 @@ const MainComp = ({ subTitle5, text2, city, formTitle }) => {
   const navigate = useNavigate();
   return (
     <section className="root">
-      <div className="main-top-main-small">
-        <h4
-          style={{
-            margin: "0rem 0.5rem",
-            color: "white",
-            fontSize: "1.6rem",
-            padding: "0.5rem",
-            borderRadius: "3px",
-            maxWidth: "330px",
-          }}
-        >
-          Bästa alternativet för dig, miljön och plånboken
-        </h4>
-
-        <div
-          style={{
-            width: "330px",
-            display: "flex",
-            alignItems: "center",
-            position: "relative",
-          }}
-        >
-          <Autocomplete
-            onChange={(e) => {
-              e.preventDefault();
-              dispatch(setServices(e.target.innerText));
-              navigate("/forfragan");
-            }}
-            background="white"
-            freeSolo
-            id="free-solo-2-demo"
-            disableClearable
-            options={servicesArray.map((option) => option.title)}
-            renderInput={(params) => (
-              <TextField
-                style={{
-                  backgroundColor: "white",
-                  width: "330px",
-                  height: "3rem",
-                  borderRadius: "5px",
-                  padding: "0.5rem",
-                }}
-                {...params}
-                placeholder="Vad behöver du hjälp med?"
-                margin="normal"
-                variant="standard"
-                InputProps={{
-                  ...params.InputProps,
-                  type: "search",
-                  disableUnderline: true,
-                }}
-              />
-            )}
-          />
-          <button
-            onClick={() => navigate("/forfragan")}
-            style={{
-              position: "absolute",
-              right: "2%",
-              background: "#00a7ac",
-              border: "none",
-              color: "black",
-              height: "2.2rem",
-              borderRadius: "3px",
-              top: "30%",
-              width: "3rem",
-            }}
-          >
-            <MdArrowForwardIos style={{ fontSize: "1rem" }} />
-          </button>
+      <div className="hero-section">
+        <div className="hero-content">
+          <h1 className="hero-title">Helhetslösning för dödsbo</h1>
+          <div className="hero-points">
+            <p>. Alla rforderliga tillstånd</p>
+            <p>. Fullvärdiga försäkringar</p>
+            <p>. Hållbart</p>
+          </div>
+          <div className="search-bar">
+            <Autocomplete
+              onChange={(e) => {
+                e.preventDefault();
+                dispatch(setServices(e.target.innerText));
+                navigate("/forfragan");
+              }}
+              background="white"
+              freeSolo
+              id="free-solo-2-demo"
+              disableClearable
+              options={servicesArray.map((option) => option.title)}
+              renderInput={(params) => (
+                <TextField
+                  className="search-input"
+                  {...params}
+                  placeholder="Hur kan vi hjälpa dig"
+                  margin="normal"
+                  variant="standard"
+                  InputProps={{
+                    ...params.InputProps,
+                    type: "search",
+                    disableUnderline: true,
+                  }}
+                />
+              )}
+            />
+            <button onClick={() => navigate("/forfragan")}>
+              <MdArrowForwardIos style={{ fontSize: "1rem" }} />
+            </button>
+          </div>
+        </div>
+        <div className="hero-image">
+          <img src={HeroImage} alt="Hero" />
         </div>
       </div>
       <MainUseComp formTitle={formTitle} />
