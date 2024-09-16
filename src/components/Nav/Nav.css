@@ -13,7 +13,7 @@ nav {
 nav .nav-logo {
   margin-left: 0.5rem;
   cursor: pointer;
-  background: #e3c148;
+  background: #00a7ac;
   color: white;
   padding: 0.3rem;
   box-shadow: rgba(245, 244, 244, 0.2) 0px 2px 8px 0px;
@@ -135,7 +135,7 @@ nav .navbar {
     display: none;
   }
 }
-.call-to-action-phone-latest{
+.call-to-action-phone-latest {
   display: flex;
   align-items: center;
   color: #eabb12;

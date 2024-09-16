@@ -10,7 +10,7 @@ const useStyles = makeStyles({
     padding: "2rem",
     color: "white",
     // flexWrap: "wrap",
-    background: "#e3c148"
+    background: "#00a7ac",
     // "@media screen and (max-width: 1000px)": {
     //   flexDirection: "column"
     // }
@@ -23,19 +23,19 @@ const useStyles = makeStyles({
     borderRadius: "50%",
     display: "flex",
     alignItems: "center",
-    justifyContent: "center"
-  }
+    justifyContent: "center",
+  },
 });
 
 const Arbetsprocessen = () => {
   const classes = useStyles();
   return (
-    <div style={{ background: "#e3c148", color: "white" }}>
+    <div style={{ background: "#00a7ac", color: "white" }}>
       <h2
         style={{
           color: "white",
           textAlign: "center",
-          paddingTop: "2rem"
+          paddingTop: "2rem",
         }}
       >
         SÅ FUNGERAR DET
@@ -47,7 +47,7 @@ const Arbetsprocessen = () => {
             display: "flex",
             alignItems: "center",
             width: "100%",
-            justifyContent: "space-evenly"
+            justifyContent: "space-evenly",
           }}
         >
           <div id="vardering">
@@ -79,7 +79,7 @@ const Arbetsprocessen = () => {
                 objectFit: "cover",
                 marginTop: "4rem",
                 borderRadius: "50%",
-                boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"
+                boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
               }}
               alt="värdering av dödsbo"
             />
@@ -91,7 +91,7 @@ const Arbetsprocessen = () => {
             display: "flex",
             alignItems: "center",
             width: "100%",
-            justifyContent: "space-evenly"
+            justifyContent: "space-evenly",
           }}
         >
           <div>
@@ -125,7 +125,7 @@ const Arbetsprocessen = () => {
                 objectFit: "cover",
                 marginTop: "4rem",
                 borderRadius: "50%",
-                boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"
+                boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
               }}
               alt="bortforsling av möbler, skräp och av dödsbo"
             />
@@ -137,7 +137,7 @@ const Arbetsprocessen = () => {
             display: "flex",
             alignItems: "center",
             width: "100%",
-            justifyContent: "space-evenly"
+            justifyContent: "space-evenly",
           }}
         >
           <div>
@@ -171,7 +171,7 @@ const Arbetsprocessen = () => {
                 objectFit: "cover",
                 marginTop: "4rem",
                 borderRadius: "50%",
-                boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"
+                boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
               }}
               alt="städning av dödsbo"
             />
@@ -182,7 +182,7 @@ const Arbetsprocessen = () => {
             display: "flex",
             alignItems: "center",
             width: "100%",
-            justifyContent: "space-evenly"
+            justifyContent: "space-evenly",
           }}
         >
           <div id="betalning">
@@ -214,7 +214,7 @@ const Arbetsprocessen = () => {
                 objectFit: "cover",
                 marginTop: "4rem",
                 borderRadius: "50%",
-                boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px"
+                boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
               }}
               alt="vem köper dödsbon"
             />

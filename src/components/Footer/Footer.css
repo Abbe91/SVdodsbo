@@ -1,11 +1,10 @@
 .footer {
-  background: #e3c148;
+  background: #00a7ac;
   height: 19rem;
   color: white;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  
 }
 .footer a {
   display: flex;
@@ -32,9 +31,9 @@
   .footer {
     flex-direction: column;
     height: 32rem;
-    padding-top: .5rem; 
+    padding-top: 0.5rem;
   }
   .footer a {
     margin: 1rem;
-  } 
+  }
 }

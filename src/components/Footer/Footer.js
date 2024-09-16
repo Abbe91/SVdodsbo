@@ -40,7 +40,7 @@ const Footer = () => {
 
         <div
           style={{
-            background: "#e3c148",
+            background: "#00a7ac",
             color: "white",
             height: "300px",
             textAlign: "center",

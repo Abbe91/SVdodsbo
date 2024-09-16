@@ -6,41 +6,41 @@ const services = [
   {
     title: "Värdera dödsbo",
 
-    path: "/vardera-dodsbo"
+    path: "/vardera-dodsbo",
   },
   {
     title: "Tömning",
 
-    path: "/tommer-hushall"
+    path: "/tommer-hushall",
   },
   {
     title: "Bortforsling",
-    path: "/bortforsling"
+    path: "/bortforsling",
   },
   {
     title: "Städning",
 
-    path: "/flyttstadning"
+    path: "/flyttstadning",
   },
   {
     title: "Uppköp dödsbo",
 
-    path: "uppkop-av-dodsbo"
+    path: "uppkop-av-dodsbo",
   },
   {
     title: "Sälja dödsbo",
 
-    path: "/salja-dodsbo/salja-dodsbo"
+    path: "/salja-dodsbo/salja-dodsbo",
   },
   {
     title: "Sanera dödsbo",
 
-    path: "/sanera-dodsbo"
+    path: "/sanera-dodsbo",
   },
   {
     title: "Flytta",
-    path: "/bohagsflytt"
-  }
+    path: "/bohagsflytt",
+  },
 ];
 
 const useStyles = makeStyles({
@@ -48,10 +48,10 @@ const useStyles = makeStyles({
     display: "flex",
     alignItems: "center",
     justifyContent: "space-evenly",
-    flexWrap: "wrap"
+    flexWrap: "wrap",
   },
   btn: {
-    background: "#e3c148",
+    background: "#00a7ac",
     color: "white",
     border: "none",
     fontSize: "0.7rem",
@@ -63,19 +63,19 @@ const useStyles = makeStyles({
     justifyContent: "center",
     fontWeight: "bold",
     "&:hover": {
-      opacity: 0.9
-    }
+      opacity: 0.9,
+    },
   },
   btnContainer: {
     textAlign: "center",
-    margin: "1.2rem 0.2rem"
+    margin: "1.2rem 0.2rem",
   },
   root: {
-    padding: "2rem"
+    padding: "2rem",
   },
   btntitle: {
-    margin: "0.2rem 0"
-  }
+    margin: "0.2rem 0",
+  },
 });
 const ServicesIconsComp = () => {
   const classes = useStyles();
@@ -90,7 +90,7 @@ const ServicesIconsComp = () => {
           style={{
             maxWidth: window.innerWidth > 740 ? "70%" : "360px",
             margin: "0.5rem auto",
-            fontSize: "0.8rem"
+            fontSize: "0.8rem",
           }}
         >
           Vi förstår att det kan vara en känslomässigt svår och stressig tid när

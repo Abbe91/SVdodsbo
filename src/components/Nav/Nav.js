@@ -126,7 +126,7 @@ const Nav = () => {
           {!isAuthenticated && (
             <button
               style={{
-                background: "#e3c148",
+                background: "#00a7ac",
                 width: "6.5rem",
                 height: "1.8rem",
                 marginTop: "2rem",
@@ -142,7 +142,7 @@ const Nav = () => {
           {isAuthenticated && (
             <button
               style={{
-                background: "#e3c148",
+                background: "#00a7ac",
                 width: "6.5rem",
                 height: "1.8rem",
                 marginTop: "2rem",
@@ -160,7 +160,7 @@ const Nav = () => {
             <Link
               to="/dashboard-main"
               style={{
-                background: "#e3c148",
+                background: "#00a7ac",
                 width: "7.5rem",
                 height: "2rem",
                 marginTop: "0.5rem",

@@ -16,51 +16,51 @@ const useStyles = makeStyles({
     display: "flex",
     flexDirection: "row",
     overflowX: "scroll",
-    alignItems: "center"
+    alignItems: "center",
   },
   imageContainer: {
-    margin: "0.5rem 0.5rem"
+    margin: "0.5rem 0.5rem",
   },
   btn: {
     width: "100%",
     height: "2rem",
-    background: "#e3c148",
+    background: "#00a7ac",
     fontWeight: "bold",
     color: "white",
     border: "none",
     borderRadius: "5px",
     margin: "0.5rem auto",
-    padding: "0.3rem"
+    padding: "0.3rem",
   },
   images: {
     backgroundPosition: "center",
-    objectFit: "cover"
-  }
+    objectFit: "cover",
+  },
 });
 const images = [
   { url: dodsbokopes, text: "Dödsbo köpes", path: "/dodsbo-kopes" },
   {
     url: varderadodsbo,
     text: "Värdera dödsbo",
-    path: "/vardera-dodsbo"
+    path: "/vardera-dodsbo",
   },
   {
     url: stadningavdodsbo,
     text: "Städning av dödsbo",
-    path: "/stadning-av-dodsbo"
+    path: "/stadning-av-dodsbo",
   },
   {
     url: tomningavdodsbo,
     text: "Tömning av dödsbo",
-    path: "/tomning-av-dodsbo"
+    path: "/tomning-av-dodsbo",
   },
   { url: dodsbosaljes, text: "Dödsbo säljes", path: "/salja-dodsbo" },
   { url: dodsboanmalan, text: "Dödsboanmälan", path: "/dodsboanmalan" },
   {
     url: foretagkoperbohag,
     text: "Företag köper bohag",
-    path: "/foretag-som-koper-bohag"
-  }
+    path: "/foretag-som-koper-bohag",
+  },
 ];
 const ImagesServicesComponent = () => {
   const classes = useStyles();
