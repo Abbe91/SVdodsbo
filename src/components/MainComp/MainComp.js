@@ -70,7 +70,6 @@ const MainComp = ({ subTitle5, text2, city, formTitle }) => {
           style={{
             margin: "0rem 0.5rem",
             background: "white",
-            height: "300px",
             justifyContent: "center",
             display: "flex",
             flexDirection: "column",
@@ -117,7 +116,6 @@ const MainComp = ({ subTitle5, text2, city, formTitle }) => {
           style={{
             margin: "1rem 0.5rem",
             background: "#00a7ac",
-            height: "300px",
             justifyContent: "center",
             display: "flex",
             color: "white",
@@ -153,7 +151,6 @@ const MainComp = ({ subTitle5, text2, city, formTitle }) => {
           style={{
             margin: "1.2rem 0.5rem",
             background: "white",
-            height: "300px",
             justifyContent: "center",
             display: "flex",
             flexDirection: "column",
@@ -205,7 +202,6 @@ const MainComp = ({ subTitle5, text2, city, formTitle }) => {
             margin: "1.2rem 0.5rem",
             background: "#00a7ac",
             color: "white",
-            height: "300px",
             justifyContent: "center",
             display: "flex",
             flexDirection: "column",

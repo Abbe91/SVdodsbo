@@ -1,78 +1,64 @@
 .aboutUs {
   display: flex;
-  flex-direction: column;
-  background: #00a7ac;
-  margin: 1rem 0.5rem;
-  align-items: center;
-  text-align: center;
-  justify-content: space-between;
-  color: white;
-  transition: all 0.3s linear;
-}
-.aboutUs h1 {
-  font-size: 1.8rem;
-  margin-top: 4rem;
-  line-height: 30px;
-  margin-bottom: 1rem;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #f0e7e7;
 }
 
-.aboutUs form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: #f1f5f9;
-  height: 300px;
+.aboutUs-info {
+  max-width: 90%;
   width: 100%;
-  max-width: 600px;
-  margin: 1.6rem auto;
-  border-radius: 5px;
-  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  color: #64748b;
+  transition: all 0.3s linear;
 }
-.aboutUs form input,
-textarea {
-  width: 90%;
-  height: 2rem;
-  border-radius: 5px;
-  border: none;
+
+.aboutUs-title {
+  color: #00a7ac;
+  margin-top: 1rem;
+  font-size: 1.4rem;
 }
-.aboutUs form label {
-  width: 250px;
+
+.aboutUs-intro {
+  margin: 0.75rem auto;
+  max-width: 800px;
   font-size: 0.8rem;
-  color: #0369a1;
-  margin-bottom: 1rem;
 }
-.aboutUs form button {
-  background: #0369a1;
-  color: white;
-  height: 2rem;
-  width: 90%;
-  border: none;
-  border-radius: 5px;
-  margin: 0.7rem 0;
+
+.aboutUs-services {
+  margin-top: 1rem;
+  font-weight: bold;
 }
+
+.aboutUs-details {
+  max-width: 800px;
+  font-size: 0.8rem;
+  line-height: 1.8;
+  margin: 0 auto;
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+
+.aboutUs-link {
+  color: #00a7ac;
+  text-decoration: underline;
+}
+
 .aboutUs-contact {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin: 3rem 0;
+  justify-content: space-between;
+  margin-top: 2rem;
 }
-.map-container {
-  margin: 0.5rem 1rem;
-  height: 400px;
+
+.aboutUs-address,
+.aboutUs-contact-info {
+  flex: 1;
+  margin: 0 1rem;
 }
-.aboutUs-map {
-  width: 100%;
+
+.aboutUs-address h4,
+.aboutUs-contact-info h4 {
+  margin-bottom: 0.5rem;
 }
-.aboutUs-contact div p {
-  font-size: 0.85rem;
-}
-@media screen and (min-width: 900px) {
-  .aboutUs {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-  }
+
+.aboutUs-contact-info {
+  line-height: 1.5;
 }

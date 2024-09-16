@@ -4,9 +4,9 @@ const initialState = {
   email: "info@alladodsbo.se",
   phone: "07000000",
   business: "Döddsbo Sv",
-  adress: "Västra Hamngatan 6",
-  zip: "411 17",
-  city: "Göteborg",
+  adress: "Nära dig i hela Sverige",
+  zip: "Huvudkontor: ",
+  city: "Lidköping",
   coords: { lat: 57.71674387891259, lng: 11.947577329191638 },
   weatherData: [],
   searchTerms: [
