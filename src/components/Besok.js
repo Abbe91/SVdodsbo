@@ -1,80 +1,99 @@
 import React from "react";
-import image2 from "../utils/images/dödsbo-värdering.png";
+import image2 from "../utils/images/seoimages/dödsboanmälan.jpg";
 import { makeStyles } from "@material-ui/core";
+
 const useStyles = makeStyles({
   root: {
     display: "flex",
     flexDirection: "row",
     padding: "2rem",
     background: "#00a7ac",
-    justifyContent: "space-evenly",
+    justifyContent: "space-around",
     color: "white",
     alignItems: "center",
     textAlign: "center",
     "@media screen and (max-width: 800px)": {
       flexDirection: "column",
+      padding: "1rem",
     },
   },
   para: {
-    margin: "0.5rem 0",
+    margin: "1rem 0",
     letterSpacing: "1px",
-    lineHeight: "27px",
+    lineHeight: "1.6",
     maxWidth: "500px",
+    fontSize: "1rem",
     "@media screen and (max-width: 800px)": {
       fontSize: "0.9rem",
     },
   },
+  divider: {
+    margin: "1rem auto",
+    width: "50%",
+    background: "#0369a1",
+    height: "2px",
+  },
+  imageContainer: {
+    margin: "1rem 0",
+    borderRadius: "50%",
+    overflow: "hidden",
+  },
+  image: {
+    height: "auto",
+    borderRadius: "50%",
+  },
 });
+
 const Besok = () => {
   const classes = useStyles();
+
   return (
     <div className={classes.root}>
-      <section style={{ margin: "1rem 0" }}>
-        <h2 style={{ color: "white" }}>Kostnadsfri värdering</h2>
-        <div
-          style={{
-            margin: "0.7rem auto",
-            width: "45%",
-            background: "#0369a1",
-            height: "1px",
-          }}
-        ></div>
+      <section>
+        <h2>Kostnadsfri Värdering</h2>
+        <div className={classes.divider}></div>
         <p className={classes.para}>
-          Vi erbjuder <strong>kostnadsfri</strong>{" "}
+          Vi erbjuder en <strong>kostnadsfri</strong>{" "}
           <a
             href="/vardering-av-dodsbo"
             title="värdering av dödsbo"
-            style={{ color: "white" }}
+            style={{ color: "white", textDecoration: "underline" }}
           >
             värdering av dödsbo
           </a>{" "}
-          och bohag inom Göteborg, Kungälv, Ale, Stenungsund och Tjörn. Vi har
-          säljkanalerna och egen butiker. Döddsbo Sv är ett företag som tänker
-          miljösmart och på återanvändning. Vi skänker till behandlingshem,
-          olika typer av boenden, kyrkor, <strong>hjälporganisationer</strong>{" "}
-          och till behövande. Vi har valt att skänka 100 kronor per uppdrag till
-          olika hjälporganisationer. Efter att vi har{" "}
+          och bohag i områden som Göteborg, Kungälv, Ale, Stenungsund och Tjörn.
+          Med våra egna butiker och säljkanaler ser vi till att allt hanteras på
+          ett miljömedvetet sätt. Vi samarbetar också med hjälporganisationer
+          för att bidra till återanvändning och samhällsnytta. För varje uppdrag
+          donerar vi 100 kronor till välgörande ändamål.
+          <br />
+          Efter att vi{" "}
           <a
             href="/tomma-dodsbo"
-            style={{ color: "white" }}
             title="tömma dödsbo"
+            style={{ color: "white", textDecoration: "underline" }}
           >
-            tömma dödsboet
+            tömt dödsboet
           </a>{" "}
-          inklusive förråd, källare och övriga utrymmen så gör vi en noggrann{" "}
+          och förråd, erbjuder vi även{" "}
           <a
             href="/flyttstadning-av-bohag"
             title="flyttstädning av bohag"
-            style={{ color: "white" }}
+            style={{ color: "white", textDecoration: "underline" }}
           >
-            flyttstädning av bohaget
-          </a>{" "}
-          , dödsboet eller huset. Söker du en uppköpare av dödsbon kan du vända
-          dig till oss.
+            flyttstädning
+          </a>
+          . Letar du efter en uppköpare för dödsbon, kan du tryggt vända dig
+          till oss.
         </p>
       </section>
-      <section style={{ margin: "1rem 0", borderRadius: "50%" }}>
-        <img src={image2} className="besok-img" loading="lazy" alt="house" />
+      <section className={classes.imageContainer}>
+        <img
+          src={image2}
+          className={classes.image}
+          loading="lazy"
+          alt="Kostnadsfri värdering"
+        />
       </section>
     </div>
   );
