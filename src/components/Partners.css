@@ -1,0 +1,85 @@
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f4; /* Light background for contrast */
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.partners section {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 2rem;
+  text-align: center;
+  height: 100%;
+}
+
+.partners h2 {
+  font-size: 2rem;
+  color: #00a7ac; /* Main color */
+  margin-bottom: 1rem;
+}
+
+.partners h4 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: normal;
+}
+
+.partners p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.partners ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.partners ul li {
+  font-size: 1rem;
+  color: #00a7ac;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.partners ul li::before {
+  content: "✓"; /* Adds a checkmark before each item */
+  color: #00a7ac;
+  margin-right: 0.5rem;
+}
+
+.partners .lottie-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+#root > div > div.partners > section:nth-child(2) > div > div {
+  height: unset !important;
+}
+
+@media (max-width: 768px) {
+  .partners {
+    padding: 1rem;
+  }
+
+  .partners section {
+    width: 100%;
+  }
+
+  .partners h2 {
+    font-size: 1.8rem;
+  }
+
+  .partners h4 {
+    font-size: 1rem;
+  }
+
+  .partners ul li {
+    font-size: 0.95rem;
+  }
+}

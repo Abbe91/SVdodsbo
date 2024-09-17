@@ -1,49 +1,67 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core";
-import dodsbokopes from "../utils/images/seoimages/dödsbo-köpes.jpg";
-import dodsbosaljes from "../utils/images/seoimages/dödsbo-säljes.jpg";
-import dodsboanmalan from "../utils/images/seoimages/dödsboanmälan.jpg";
-import foretagkoperbohag from "../utils/images/seoimages/företag-köper-bohag.jpg";
-import stadningavdodsbo from "../utils/images/seoimages/städning-av-dödsbo.jpg";
-import tomningavdodsbo from "../utils/images/seoimages/tömning-av-dödsbo.jpg";
-import varderadodsbo from "../utils/images/värdera-dödsbo.jpg";
+import dodsbokopes from "../utils/images/seoimages/ddsbo-kpes-01.jpg";
+import dodsbosaljes from "../utils/images/seoimages/ddsbo-sljes.jpg";
+import dodsboanmalan from "../utils/images/seoimages/ddsboanmlan.jpg";
+import foretagkoperbohag from "../utils/images/seoimages/fretag-kper-bohag.jpg";
+import stadningavdodsbo from "../utils/images/seoimages/stdning-av-ddsbo-01.jpg";
+import tomningavdodsbo from "../utils/images/seoimages/tmning-av-ddsbo.jpg";
+import varderadodsbo from "../utils/images/seoimages/appraisingantiques.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+
 const useStyles = makeStyles({
   root: {
     background: "white",
-    height: "400px",
     width: "100%",
-    display: "flex",
-    flexDirection: "row",
-    overflowX: "scroll",
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))",
+    gap: "1rem",
+    padding: "1rem",
+    justifyItems: "center",
     alignItems: "center",
   },
   imageContainer: {
-    margin: "0.5rem 0.5rem",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    padding: "1rem",
+    boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
+    borderRadius: "8px",
+    transition: "transform 0.2s ease-in-out",
+    "&:hover": {
+      transform: "translateY(-5px)",
+    },
+  },
+  images: {
+    width: "100%",
+    height: "200px",
+    objectFit: "cover",
+    borderRadius: "8px",
   },
   btn: {
     width: "100%",
-    height: "2rem",
-    background: "#00a7ac",
-    fontWeight: "bold",
+    height: "2.5rem",
+    backgroundColor: "#00a7ac",
     color: "white",
+    fontWeight: "bold",
     border: "none",
     borderRadius: "5px",
-    margin: "0.5rem auto",
-    padding: "0.3rem",
+    marginTop: "1rem",
+    cursor: "pointer",
+    transition: "background-color 0.2s ease-in-out",
+    "&:hover": {
+      backgroundColor: "#008b8f",
+    },
   },
-  images: {
-    backgroundPosition: "center",
-    objectFit: "cover",
+  link: {
+    textDecoration: "none",
+    width: "100%",
   },
 });
+
 const images = [
   { url: dodsbokopes, text: "Dödsbo köpes", path: "/dodsbo-kopes" },
-  {
-    url: varderadodsbo,
-    text: "Värdera dödsbo",
-    path: "/vardera-dodsbo",
-  },
+  { url: varderadodsbo, text: "Värdera dödsbo", path: "/vardera-dodsbo" },
   {
     url: stadningavdodsbo,
     text: "Städning av dödsbo",
@@ -62,6 +80,7 @@ const images = [
     path: "/foretag-som-koper-bohag",
   },
 ];
+
 const ImagesServicesComponent = () => {
   const classes = useStyles();
   return (
@@ -75,7 +94,7 @@ const ImagesServicesComponent = () => {
             width={"200px"}
             className={classes.images}
           />
-          <a href={image.path} title={image.text}>
+          <a href={image.path} className={classes.link} title={image.text}>
             <button className={classes.btn}>{image.text}</button>
           </a>
         </div>
