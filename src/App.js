@@ -1210,7 +1210,7 @@ const App = () => {
           <ImagesServicesComponent />
           <Besok />
           <SeoServiceComponent />
-          <Oppetider />
+          {/*<Oppetider /> */}
           <ServicesIconsComp />
           <Recensioner />
           <Footer />

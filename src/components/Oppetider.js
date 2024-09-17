@@ -25,7 +25,10 @@ const Oppetider = () => {
   const classes = useStyles();
   return (
     <div className={classes.root} id="oppetider">
-      <Typography variant="h5" style={{ fontWeight: "bold" }}>
+      <Typography
+        variant="h5"
+        style={{ fontWeight: "bold", marginTop: "50px" }}
+      >
         Öppetider
       </Typography>
       <Box className={classes.divider}></Box>
