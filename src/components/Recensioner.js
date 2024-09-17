@@ -2,44 +2,50 @@ import React from "react";
 import { makeStyles, Card } from "@material-ui/core";
 import { Star } from "@material-ui/icons";
 import { customerReviews } from "../utils/data";
+import googleIcon from "../utils/images/googlereview.png";
 
 const useStyles = makeStyles({
   root: {
     background: "rgb(248, 247, 247)",
-    height: "560px",
     margin: "2rem 0",
     display: "flex",
     flexDirection: "column",
-    justifyContent: "space-evenly",
-    width: "100%",
+    justifyContent: "center",
     alignItems: "center",
-    "@media screen and (max-width: 800px)": {
-      height: "860px",
-    },
+    width: "100%",
   },
   contentContainer: {
     maxWidth: "50%",
-  },
-  cardContainer: {
-    margin: "1rem 0",
-    background: "white",
-    borderRadius: "5px",
+    textAlign: "center",
+    marginBottom: "2rem",
   },
   reviews: {
-    overflowY: "scroll",
+    display: "grid",
+    gridTemplateColumns: "repeat(1, 1fr)",
+    gap: "1rem",
+    width: "100%",
+    "@media (min-width: 600px)": {
+      gridTemplateColumns: "repeat(2, 1fr)",
+    },
+    "@media (min-width: 800px)": {
+      gridTemplateColumns: "repeat(4, 1fr)",
+    },
+  },
+  cardContainer: {
+    background: "white",
+    borderRadius: "5px",
+    padding: "1rem",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    textAlign: "center",
   },
   card: {
-    height: "260px",
-    width: "340px",
-    textAlign: "center",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
     borderRadius: "5px",
-    "@media screen and (min-width: 800px)": {
-      width: "600px",
-    },
   },
   divider: {
     height: "1px",
@@ -47,14 +53,22 @@ const useStyles = makeStyles({
     width: "140px",
     margin: "0.5rem 0",
   },
+  title: {
+    marginBottom: "1rem",
+  },
+  description: {
+    lineHeight: "26px",
+    marginBottom: "1rem",
+  },
 });
 const Recensioner = () => {
   const classes = useStyles();
+
   return (
     <div className={classes.root}>
       <section className={classes.contentContainer}>
-        <h2 style={{ margin: "1rem 0" }}>Längst erfarenhet</h2>
-        <p style={{ lineHeight: "26px", marginBottom: "1rem" }}>
+        <h2>Längst erfarenhet</h2>
+        <p>
           Vi på Döddsbo Sv är det självklara valet för hantering av bohag och
           dödsbo med över 50 års erfarenhet tillsammans är vi helt övetygade om
           att vi kan erbjuda dig det bästa upplägget för ditt bohag, dödsbo och
@@ -63,12 +77,17 @@ const Recensioner = () => {
         </p>
       </section>
       <section className={classes.reviews}>
-        {customerReviews?.map((review) => (
+        {customerReviews.map((review) => (
           <div key={review.id} className={classes.cardContainer}>
             <Card className={classes.card}>
+              <img
+                src={googleIcon}
+                alt="Google"
+                className={classes.googleIcon}
+              />
               <a
                 href={review.path}
-                style={{ color: "black" }}
+                style={{ color: "black", textDecoration: "none" }}
                 title={review.service}
               >
                 <h5>{review.service}</h5>

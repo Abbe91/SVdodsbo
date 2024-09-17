@@ -4,7 +4,7 @@ import DateFnsUtils from "@date-io/date-fns";
 import {
   MuiPickersUtilsProvider,
   KeyboardTimePicker,
-  KeyboardDatePicker
+  KeyboardDatePicker,
 } from "@material-ui/pickers";
 import { useAuth0 } from "@auth0/auth0-react";
 import { useParams, Link } from "react-router-dom";
@@ -20,7 +20,7 @@ import {
   query,
   where,
   getDocs,
-  updateDoc
+  updateDoc,
 } from "firebase/firestore";
 import { db } from "../firebase";
 const useStyles = makeStyles({
@@ -29,7 +29,7 @@ const useStyles = makeStyles({
     flexDirection: "column",
     margin: "1rem 0",
     borderBottom: "1px solid black",
-    padding: "1rem"
+    padding: "1rem",
   },
   select: {
     width: "9rem",
@@ -40,19 +40,19 @@ const useStyles = makeStyles({
     fontWeight: "bold",
     color: "#20B2AA",
     marginTop: "0.5rem",
-    marginBottom: "1rem"
+    marginBottom: "1rem",
   },
   status: {
     textTransform: "capitalize",
     color: "green",
     borderBottom: "1px solid green",
     fontSize: "1.2rem",
-    marginLeft: "0.3rem"
+    marginLeft: "0.3rem",
   },
   offert: {
     display: "flex",
-    flexDirection: "column"
-  }
+    flexDirection: "column",
+  },
 });
 const LeadsDetails = () => {
   const classes = useStyles();
@@ -78,7 +78,7 @@ const LeadsDetails = () => {
       querySnapshot.forEach((doc) => (docId = doc.id));
       const object = doc(db, "newLead", docId);
       await updateDoc(object, {
-        harRingtKund: true
+        harRingtKund: true,
       });
       console.log("updated click to call");
     } catch (error) {
@@ -96,7 +96,7 @@ const LeadsDetails = () => {
       querySnapshot.forEach((doc) => (docId = doc.id));
       const object = doc(db, "newLead", docId);
       await updateDoc(object, {
-        harMailatKund: true
+        harMailatKund: true,
       });
       console.log("updated sent email");
     } catch (error) {
@@ -128,7 +128,7 @@ const LeadsDetails = () => {
       await updateDoc(object, {
         status: status,
         offertPris: offertPris,
-        offertKommentar: offertKommentar
+        offertKommentar: offertKommentar,
       });
       console.log("updated");
       setUpdated(true);
@@ -148,7 +148,7 @@ const LeadsDetails = () => {
       const object = doc(db, "newLead", docId);
       await updateDoc(object, {
         AttFakturera: vunnenPris,
-        status: status
+        status: status,
       });
       console.log("updated");
       setUpdated(true);
@@ -169,7 +169,7 @@ const LeadsDetails = () => {
       const object = doc(db, "newLead", docId);
       await updateDoc(object, {
         lost: true,
-        status: status
+        status: status,
       });
       console.log("updated");
       setUpdated(true);
@@ -193,7 +193,7 @@ const LeadsDetails = () => {
       await updateDoc(object, {
         bokatBesokDag: `${dag}/${month}-${year}`,
         bokatBesokTid: bokatTid.toLocaleTimeString(),
-        status: status
+        status: status,
       });
       console.log("updated");
       setUpdated(true);
@@ -212,7 +212,7 @@ const LeadsDetails = () => {
       querySnapshot.forEach((doc) => (docId = doc.id));
       const object = doc(db, "newLead", docId);
       await updateDoc(object, {
-        underLevHarBetalt: true
+        underLevHarBetalt: true,
       });
       console.log("updated");
       setUpdated(true);
@@ -232,7 +232,7 @@ const LeadsDetails = () => {
       const object = doc(db, "newLead", docId);
       await updateDoc(object, {
         pending: true,
-        status: status
+        status: status,
       });
       console.log("updated");
       setUpdated(true);
@@ -251,7 +251,7 @@ const LeadsDetails = () => {
       querySnapshot.forEach((doc) => (docId = doc.id));
       const object = doc(db, "newLead", docId);
       await updateDoc(object, {
-        status: status
+        status: status,
       });
       console.log("updated");
       setUpdated(true);
@@ -269,7 +269,7 @@ const LeadsDetails = () => {
               style={{
                 color: "green",
                 fontSize: "1.3rem",
-                marginLeft: "0.75rem"
+                marginLeft: "0.75rem",
               }}
             >
               <BsFillArrowLeftCircleFill />
@@ -296,7 +296,7 @@ const LeadsDetails = () => {
                 <option value={"vunnen"}>Affär</option>
                 <option value={"lost"}>Tappad</option>
                 <option value={"pending"}>Pending</option>
-                {user.email === "louiestokk@gmail.com" && (
+                {user.email === "abdullaha4682@gmail.com" && (
                   <option value={"remove"}>Remove</option>
                 )}
               </select>
@@ -327,7 +327,7 @@ const LeadsDetails = () => {
                       border: "none",
                       fontWeight: "bold",
                       boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
-                      cursor: "pointer"
+                      cursor: "pointer",
                     }}
                     onClick={() => updateLeadsStatus(el.adID)}
                   >
@@ -353,7 +353,7 @@ const LeadsDetails = () => {
                       border: "none",
                       fontWeight: "bold",
                       boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
-                      cursor: "pointer"
+                      cursor: "pointer",
                     }}
                     onClick={() => updateVunnenPris(el.adID)}
                   >
@@ -372,7 +372,7 @@ const LeadsDetails = () => {
                     border: "none",
                     fontWeight: "bold",
                     boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
-                    cursor: "pointer"
+                    cursor: "pointer",
                   }}
                 >
                   {updated ? "uppdaterad" : "Uppdatera till lost"}
@@ -389,7 +389,7 @@ const LeadsDetails = () => {
                     border: "none",
                     fontWeight: "bold",
                     boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
-                    cursor: "pointer"
+                    cursor: "pointer",
                   }}
                 >
                   {updated ? "uppdaterad" : "Uppdatera till pending"}
@@ -413,7 +413,7 @@ const LeadsDetails = () => {
                       value={bokatDatum}
                       onChange={handleDateChange}
                       KeyboardButtonProps={{
-                        "aria-label": "change date"
+                        "aria-label": "change date",
                       }}
                     />
                     <KeyboardTimePicker
@@ -424,7 +424,7 @@ const LeadsDetails = () => {
                       value={bokatTid}
                       onChange={handleTimeChange}
                       KeyboardButtonProps={{
-                        "aria-label": "change time"
+                        "aria-label": "change time",
                       }}
                     />
                   </MuiPickersUtilsProvider>
@@ -438,7 +438,7 @@ const LeadsDetails = () => {
                       border: "none",
                       fontWeight: "bold",
                       boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
-                      cursor: "pointer"
+                      cursor: "pointer",
                     }}
                   >
                     {updated ? "uppdaterad" : "Uppdatera Bokning"}
@@ -451,7 +451,7 @@ const LeadsDetails = () => {
                 <strong>id: </strong>{" "}
                 <span style={{ fontSize: "0.85rem" }}>{el.adID}</span>
               </p>
-              {user.email === "louiestokk@gmail.com" &&
+              {user.email === "abdullaha4682@gmail.com" &&
                 !el.underLevHarBetalt && (
                   <button onClick={() => updaterBetaltAvUndLev(el.adID)}>
                     Magnus har betalt
@@ -462,7 +462,7 @@ const LeadsDetails = () => {
                   borderBottom: "1px solid black",
                   maxWidth: "150px",
                   marginBottom: "0.5rem",
-                  color: "#4B0082"
+                  color: "#4B0082",
                 }}
               >
                 {el.namn}
@@ -472,7 +472,7 @@ const LeadsDetails = () => {
                   display: "flex",
                   alignItems: "center",
                   color: "#FFA07A",
-                  marginBottom: "0.5rem"
+                  marginBottom: "0.5rem",
                 }}
               >
                 <BsTelephoneFill />
@@ -481,7 +481,7 @@ const LeadsDetails = () => {
                   onClick={() => updateCall(el.adID)}
                   style={{
                     color: "#FFA07A",
-                    marginLeft: "0.5rem"
+                    marginLeft: "0.5rem",
                   }}
                 >
                   {el.nummer}
@@ -492,7 +492,7 @@ const LeadsDetails = () => {
                   display: "flex",
                   alignItems: "center",
                   color: "#20B2AA",
-                  marginBottom: "0.5rem"
+                  marginBottom: "0.5rem",
                 }}
               >
                 <MdEmail />
@@ -501,7 +501,7 @@ const LeadsDetails = () => {
                   onClick={() => updateEmail(el.adID)}
                   style={{
                     color: "#20B2AA",
-                    marginLeft: "0.5rem"
+                    marginLeft: "0.5rem",
                   }}
                 >
                   {el.email}
@@ -561,13 +561,13 @@ const LeadsDetails = () => {
               )}
               {el.pending && <p style={{ color: "orange" }}>Pending</p>}
 
-              {el.harRingtKund && user.email === "louiestokk@gmail.com" && (
+              {el.harRingtKund && user.email === "abdullaha4682@gmail.com" && (
                 <p>
                   Click to call:{" "}
                   <strong style={{ color: "green" }}>true</strong>{" "}
                 </p>
               )}
-              {el.harMailatKund && user.email === "louiestokk@gmail.com" && (
+              {el.harMailatKund && user.email === "abdullaha4682@gmail.com" && (
                 <p>
                   Sent email: <strong style={{ color: "green" }}>true</strong>{" "}
                 </p>

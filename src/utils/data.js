@@ -89,120 +89,121 @@ export const customerReviews = [
   {
     id: 144444,
     service: "Tömning av dödsbo",
-    kund: "Marie Lindqvist",
+    kund: "Anna Johansson",
     path: "/tomning-av-dodsbo",
     comment:
-      "Jag fick hjälp med at tömma mammas dödsbo och sedan städas dödsboet. Vi är jättenöjda med deras helhetslösning",
+      "Döddsbo Sv gjorde ett fantastiskt jobb med att tömma och städa efter mammas bortgång. Deras kompletta lösning överträffade våra förväntningar.",
   },
   {
     id: 221,
     service: "Uppköp av dödsbo",
-    kund: "Liselott Andersson",
+    kund: "Erik Nilsson",
     path: "/uppkop-av-dodsbo",
     comment:
-      "De kom ut på en kostnadsfri värdering för uppköp av vårt dödsbo. Döddsbo Sv köpte en hel del av oss och resten forsla dom bort och skänkte. Tack för hjälpen med vårt dödsbo.",
+      "Vi fick en kostnadsfri värdering och sedan ett rättvist erbjudande för vårt dödsbo. Döddsbo Sv hanterade det överblivna materialet professionellt genom att donera det.",
   },
   {
     id: 222,
     service: "Försäljning av dödsbo",
-    kund: "Bosse Eriksson",
+    kund: "Sofia Larsson",
     path: "/salja-dodsbo-goteborg",
     comment:
-      "Jag fick hjälp med att sälja lösöre ur mitt dödsbo och det gick hur bra som helst. Döddsbo Svs helhetslösning passade mig perfekt när de sedan tömde dch städade dödsboet.",
+      "Sälja lösöre från mitt dödsbo gick smidigt och enkelt. Döddsbo Sv levererade en utmärkt service genom att också städa efteråt.",
   },
   {
     id: 243,
     service: "Bohagsflytt",
-    kund: "Jasem Hossan",
+    kund: "Magnus Svensson",
     path: "/bohagsflytt",
     comment:
-      "Kanon! Packning, Flytt och flyttstädning av vårt hus. Proffsigt, smidigt och billigt då vi fick äntliigen nyttja vår rut. Bohagsflytten gick hur bra som helst.",
+      "Flytten av vårt bohag var problemfri tack vare Döddsbo Sv. De tog hand om allt från packning till flyttstädning effektivt och kostnadseffektivt.",
   },
   {
     id: 435,
     service: "Flyttstädning",
-    kund: "Petra Dahl",
+    kund: "Elin Karlsson",
     path: "/flyttstadning",
     comment:
-      "Vi fick hjälp med att flyttstäda vårt bohag och Döddsbo Sv forslade bort lite gammla möbler vi hade i förrådet. Enkelt och prisvärt.",
+      "Döddsbo Sv utförde en grundlig flyttstädning och tog också bort några gamla möbler från vårt förråd. Mycket bekvämt och prisvärt.",
   },
   {
     id: 5777,
     service: "Bortforsling av dödsbo",
-    kund: "Kirsten Abbasi",
+    kund: "Johan Eriksson",
     path: "/bortforsling-dodsbo-goteborg",
     comment:
-      "Döddsbo Sv hjälpte oss med att sortera och forsla bort vårt dödsbo. Vi fick lite avdrag på priset då de köpte lite lösöre ur dödsboet. Jag rekommenderar Döddsbo Sv starkt.",
+      "De sorterade och transporterade vårt dödsbo med stor professionalism. Vi fick en rabatt för det material de köpte, vilket var en fin bonus.",
   },
   {
     id: 6777775,
     service: "Städning av dödsbo",
-    kund: "John Pettersson",
+    kund: "Linda Andersson",
     path: "/stadning-av-dodsbo",
     comment:
-      "Städningen av vårt dödsbo gick utmärkt. Vi fick ett bra pris för städet och det slängde lite gammla prylar åt oss. Bra firma verkligen.",
+      "Städningen av vårt dödsbo blev mycket bra. Döddsbo Sv erbjöd ett rimligt pris och tog även bort några gamla saker. Mycket nöjd med deras arbete.",
   },
   {
     id: 7456,
     service: "Sälja dödsbo Göteborg",
-    kund: "Ali Hussein",
+    kund: "Oskar Johansson",
     path: "/salja-dodsbo-goteborg",
     comment:
-      "Vi ville sälja vårt dödsbo i Göteborg och Döddsbo Sv hjälpte oss med en helhetslösning där de köpte upp lösöre ur dödsboet, tömde dödsboet, forslade bort dödsboet och sedan slutstädade.",
+      "Vi använde Döddsbo Sv för att sälja vårt dödsbo i Göteborg och de hanterade allt från inköp till städning med stor effektivitet och noggrannhet.",
   },
   {
     id: 8688,
     service: "Tömma dödsbo Göteborg",
-    kund: "Lisa Magnusson",
+    kund: "Elisabeth Nilsson",
     path: "/tomma-dodsbo-goteborg",
     comment:
-      "De tömde vårt dödsbo i Göteborg vilket gick utmärkt. Döddsbo Sv gav oss även en liten slant för våra gammla prylar.",
+      "Tömningen av vårt dödsbo i Göteborg var utmärkt. Döddsbo Sv gjorde en uppskattad insats och vi fick även ett extra bidrag för våra gamla föremål.",
   },
   {
     id: 996986,
     service: "Städning av dödsbo Göteborg",
-    kund: "Britt Marie",
+    kund: "Fredrik Larsson",
     path: "/stada-dodsbo-goteborg",
     comment:
-      "Trevliga killar som gjorde ett jättebra jobb med att städa vårt dödsbo i Göteborg.",
+      "Vi är mycket nöjda med städningen av vårt dödsbo i Göteborg. Personalens vänlighet och professionalism gjorde hela processen smidig.",
   },
   {
     id: 15460,
     service: "Uppköp av dödsbo Göteborg",
-    kund: "Tony Sloth",
+    kund: "Sara Andersson",
     path: "/uppkop-dodsbo-goteborg",
     comment:
-      "Vi fick en kostnadsfri värdering och sedan gjord de ett uppköp av vårt dödsbo i Göteborg.",
+      "Döddsbo Sv erbjöd en kostnadsfri värdering och ett bra pris för vårt dödsbo. Deras service var snabb och effektiv.",
   },
   {
     id: 146461,
     service: "Dödsbo uppköpare",
-    kund: "Liselott Thor",
+    kund: "Jens Karlsson",
     path: "/uppkop-dodsbo-goteborg",
     comment:
-      "Döddsbo Sv hjälpte oss med att köpa upp lösöre ur vårt dödsbo. De köpte en hel del.",
+      "De köpte upp det mesta av lösöret i vårt dödsbo. Vi blev nöjda med både processen och det erbjudande vi fick.",
   },
   {
     id: 166462,
     service: "Köper dödsbo Göteborg",
-    kund: "Per-Olof Andersson",
+    kund: "Anna Eriksson",
     path: "/uppkop-dodsbo-goteborg",
-    comment: "Bra firma i Göteborg som köper dödsbo och tömmer samt städar",
+    comment:
+      "Ett pålitligt företag i Göteborg som hanterar dödsbo på ett professionellt sätt. Deras tjänster inkluderade både uppköp och städning.",
   },
   {
     id: 166463,
     service: "Flyttstädning i Göteborg",
-    kund: "Janne Jansson",
+    kund: "Karin Svensson",
     path: "/flyttstadning-i-goteborg",
     comment:
-      "Vi fick hjälp med att röja vårt dödsbo och sen gjorde Döddsbo Sv flyttstädning av dödsboet. Enkel kommunikation och smidigt.",
+      "Döddsbo Sv skötte flyttstädningen av vårt dödsbo utan några problem. Kommunikationen var enkel och tjänsten var snabb och effektiv.",
   },
   {
     id: 166466868,
     service: "Röja dödsbo i Göteborg",
-    kund: "Karl Einersson",
+    kund: "Mikael Johansson",
     path: "/roja-dodsbo-goteborg",
     comment:
-      "Röjning av dödsboet gick som vi ville. Döddsbo Sv skötte allt trots att vi inte kunde vara på plats. Pålitligt företag och rekommenderar dem starkt. ",
+      "Röjningen av vårt dödsbo genomfördes på ett mycket bra sätt. Döddsbo Sv tog hand om allt, även när vi inte kunde vara närvarande.",
   },
 ];
