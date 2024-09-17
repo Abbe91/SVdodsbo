@@ -15,6 +15,7 @@ const useStyles = makeStyles({
     width: "100%",
   },
   contentContainer: {
+    marginTop: "2rem",
     maxWidth: "50%",
     textAlign: "center",
     marginBottom: "2rem",
