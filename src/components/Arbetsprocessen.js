@@ -36,35 +36,36 @@ const Arbetsprocessen = () => {
           </div>
         </section>
 
-        <section className="sectionReversed">
-          <div>
-            <div className="roundNumber" id="tömning">
-              <p>2</p>
+        <div className="perentsSection">
+          <section className="sectionReversed">
+            <div>
+              <div className="roundNumber" id="tömning">
+                <p>2</p>
+              </div>
+              <p className="textContent">
+                <strong>Tömning & Bortforsling:</strong> Vi kommer överens om en
+                dag för att börja tömma dödsboet eller bohaget. Efter sortering
+                tar vi hand om saker för donation, återvinning eller transport
+                till vår butik eller lager.
+                <a
+                  href="/dodsboet"
+                  className="linkText"
+                  title="tömning av dödsbo"
+                >
+                  Läs mer om processen
+                </a>
+                .
+              </p>
             </div>
-            <p className="textContent">
-              <strong>Tömning & Bortforsling:</strong> Vi kommer överens om en
-              dag för att börja tömma dödsboet eller bohaget. Efter sortering
-              tar vi hand om saker för donation, återvinning eller transport
-              till vår butik eller lager.
-              <a
-                href="/dodsboet"
-                className="linkText"
-                title="tömning av dödsbo"
-              >
-                Läs mer om processen
-              </a>
-              .
-            </p>
-          </div>
-          <div>
-            <img
-              src={movingfurniture}
-              className="imageContent"
-              alt="Tömning och bortforsling"
-            />
-          </div>
-        </section>
-
+            <div>
+              <img
+                src={movingfurniture}
+                className="imageContent"
+                alt="Tömning och bortforsling"
+              />
+            </div>
+          </section>
+        </div>
         <section className="section">
           <div>
             <div className="roundNumber" id="stadning">
@@ -92,29 +93,34 @@ const Arbetsprocessen = () => {
             />
           </div>
         </section>
-
-        <section className="sectionReversed">
-          <div id="betalning">
-            <div className="roundNumber">
-              <p>4</p>
+        <div className="perentsSection">
+          <section className="sectionReversed">
+            <div id="betalning">
+              <div className="roundNumber">
+                <p>4</p>
+              </div>
+              <p className="textContent">
+                <strong>Betalning:</strong> Om föremålen är värda mer än
+                kostnaderna för arbetet betalar vi er för{" "}
+                <a
+                  href="/tomma-dodsbo"
+                  className="linkText"
+                  title="tömma dödsbo"
+                >
+                  tömningen av dödsboet
+                </a>
+                . Alternativt drar vi av summan från den totala betalningen.
+              </p>
             </div>
-            <p className="textContent">
-              <strong>Betalning:</strong> Om föremålen är värda mer än
-              kostnaderna för arbetet betalar vi er för{" "}
-              <a href="/tomma-dodsbo" className="linkText" title="tömma dödsbo">
-                tömningen av dödsboet
-              </a>
-              . Alternativt drar vi av summan från den totala betalningen.
-            </p>
-          </div>
-          <div>
-            <img
-              src={paymenttransaction}
-              className="imageContent"
-              alt="Betalning efter tömning"
-            />
-          </div>
-        </section>
+            <div>
+              <img
+                src={paymenttransaction}
+                className="imageContent"
+                alt="Betalning efter tömning"
+              />
+            </div>
+          </section>
+        </div>
       </div>
     </div>
   );
