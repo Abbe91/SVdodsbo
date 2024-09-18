@@ -11,7 +11,7 @@ import Kostnadsfri from "../Kostnadsfri/Kostnadsfri";
 import { Helmet } from "react-helmet-async";
 import { getNewsData } from "../../redux-toolkit/news/newsSlice";
 import LottieBooking from "../../LottieAnimation/LottieBooking";
-import booking from "../../utils/animation/booking.json";
+import booking from "../../utils/animation/Booking-time.json";
 import BookingModal from "../BookingModal";
 const Uppkopdodsbogoteborg = ({ videoText }) => {
   const [modalOpen, setModalOpen] = useState(false);

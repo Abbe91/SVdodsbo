@@ -12,7 +12,7 @@ import Kostnadsfri from "../components/Kostnadsfri/Kostnadsfri";
 import { Helmet } from "react-helmet-async";
 import { getNewsData, getBingNews } from "../redux-toolkit/news/newsSlice";
 import LottieBooking from "../LottieAnimation/LottieBooking";
-import booking from "../utils/animation/booking.json";
+import booking from "../utils/animation/Booking-time.json";
 import BookingModal from "../components/BookingModal";
 const Flytta = ({ videoText }) => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -28,7 +28,7 @@ const Flytta = ({ videoText }) => {
     formTitle: "Bohagsflytt",
     subTitle2:
       "Din auktoriserade hanterare av dödsbo, bohag, uppköp, försäljning, tömning, sanering, städ, bortforsling, värdering och flytt av bohag.",
-    subTitle3: `Behöver du professionell hjälp med ${mainquery}`
+    subTitle3: `Behöver du professionell hjälp med ${mainquery}`,
   });
   const customerData = useSelector(getCustomerData);
 

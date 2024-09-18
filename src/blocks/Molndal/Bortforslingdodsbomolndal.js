@@ -13,7 +13,7 @@ import Kostnadsfri from "../../components/Kostnadsfri/Kostnadsfri";
 import { Helmet } from "react-helmet-async";
 import { getNewsData, getBingNews } from "../../redux-toolkit/news/newsSlice";
 import LottieBooking from "../../LottieAnimation/LottieBooking";
-import booking from "../../utils/animation/booking.json";
+import booking from "../../utils/animation/Booking-time.json";
 import BookingModal from "../../components/BookingModal";
 const Bortforslingdodsbomolndal = ({ videoText }) => {
   const [modalOpen, setModalOpen] = useState(false);
