@@ -7,7 +7,7 @@ import { useDispatch } from "react-redux";
 import Faq from "../faq/Faq";
 import { MdArrowForwardIos } from "react-icons/md";
 import { setServices } from "../../redux-toolkit/snabbkollenSlice";
-import HeroImage from "../../utils/images/hero-img.png";
+import HeroImage from "../../utils/images/2.png";
 const MainComp = ({ subTitle5, text2, city, formTitle }) => {
   const Divider = lazy(() => import("./Divider"));
   const Arbetsprocessen = lazy(() => import("../Arbetsprocessen"));

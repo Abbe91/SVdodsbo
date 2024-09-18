@@ -215,6 +215,9 @@ input:focus {
     border-radius: 5px;
     object-fit: cover;
   }
+  .hero-content {
+    width: 100%;
+  }
   .content-new-container > div {
     max-width: 100%;
     margin: 1rem;
@@ -311,7 +314,7 @@ input:focus {
 }
 
 .hero-content {
-  width: 65%;
+  width: 50%;
 }
 
 .hero-content h1 {
@@ -358,7 +361,7 @@ input:focus {
 }
 
 .hero-image {
-  width: 35%;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -460,8 +463,6 @@ input:focus {
 
 /* Landscape */
 @media only screen and (min-device-width: 520px) and (max-device-width: 1080px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  .hero-image img {
-  }
   .hero-section {
     flex-direction: column; /* Change layout to column for mobile */
     height: 100%; /* Adjust height for mobile */
@@ -473,7 +474,7 @@ input:focus {
   }
 
   .hero-content h1 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   .hero-content .search-bar .search-input {
@@ -496,11 +497,58 @@ input:focus {
     width: 100%;
     border-radius: 0;
   }
+  .hero-points {
+    margin: 0rem;
+    text-align: center;
+    font-size: 1rem; /* Font size remains the same */
+  }
+  .hero-points p {
+    text-align: center;
+    font-size: 1rem; /* Font size remains the same */
+  }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .hero-section {
+    flex-direction: column; /* Change layout to column for mobile */
+    height: 100%; /* Adjust height for mobile */
+  }
+
+  .hero-content {
+    width: 100%;
+    padding-bottom: 1rem; /* Add bottom padding for spacing */
+  }
+
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-content .search-bar .search-input {
+    top: -4px;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: white;
+    width: 250px; /* Adjusted to 80% */
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+  }
+
+  .hero-image {
+    width: 100%;
+    padding-top: 1rem; /* Add top padding for spacing */
+  }
+
   .hero-image img {
     width: 100%;
     border-radius: 0;
-    object-fit: cover;
+  }
+  .hero-points {
+    margin: 0rem;
+    text-align: center;
+    font-size: 1rem; /* Font size remains the same */
+  }
+  .hero-points p {
+    text-align: center;
+    font-size: 1rem; /* Font size remains the same */
   }
 }
