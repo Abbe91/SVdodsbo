@@ -5,7 +5,7 @@ import Partners from "./components/Partners";
 import { getContentData } from "./redux-toolkit/content/contentSlice";
 import { useSelector } from "react-redux";
 import Links from "./internalLinks/Links";
-import { Audio } from "react-loader-spinner";
+import { Circles } from "react-loader-spinner";
 import SeoServiceComponent from "./components/SeoServiceComponent";
 const LeadsDetails = lazy(() => import("./pages/LeadsDetails"));
 const PrivatRoute = lazy(() => import("./pages/PrivatRoute"));
@@ -396,13 +396,17 @@ const App = () => {
     <div className="App">
       <Suspense
         fallback={
-          <Audio
-            height="80"
-            width="80"
-            radius="9"
-            color="green"
-            ariaLabel="loading"
-          />
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              height: "100vh",
+              width: "100vw",
+            }}
+          >
+            <Circles height="80" width="80" color="#00a7ac" />
+          </div>
         }
       >
         <Router>

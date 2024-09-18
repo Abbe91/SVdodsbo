@@ -13,8 +13,7 @@
 }
 .divider-image {
   object-fit: contain;
-  width: 640px;
-  height: 300px;
+  width: 540px;
   margin-bottom: 1rem;
 }
 
@@ -56,6 +55,12 @@
     font-weight: bold;
     color: #2c3e50;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .divider-image {
+    object-fit: contain;
+    width: 540px;
+    height: 480px;
+    margin-bottom: 1rem;
   }
   .divider-paragraph {
     font-size: 1rem;

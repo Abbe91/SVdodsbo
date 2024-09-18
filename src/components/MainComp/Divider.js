@@ -1,5 +1,5 @@
 import React from "react";
-import proffs from "../../utils/images/hero-img.png";
+import proffs from "../../utils/images/Expert help.png";
 import "./Divider.css";
 const Divider = () => {
   return (
