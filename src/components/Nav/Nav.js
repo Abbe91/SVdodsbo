@@ -11,6 +11,7 @@ import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { getCustomerData } from "../../redux-toolkit/customer/customerSlice";
 import Links from "../externalLinks/Links";
+import Logo from "../../utils/images/logo.png";
 
 const Nav = () => {
   const dispatch = useDispatch();
@@ -31,8 +32,7 @@ const Nav = () => {
     <>
       <nav>
         <div className="nav-logo" onClick={() => (window.location.href = "/")}>
-          <h2 className="logo">Alla</h2>
-          <h2 className="logo">Dödsbo</h2>
+          <img className="logo" src={Logo} alt="logo" />
         </div>
 
         <a

@@ -11,12 +11,7 @@ nav {
   z-index: 101;
 }
 nav .nav-logo {
-  margin-left: 0.5rem;
   cursor: pointer;
-  background: #00a7ac;
-  color: white;
-  padding: 0.3rem;
-  box-shadow: rgba(245, 244, 244, 0.2) 0px 2px 8px 0px;
 }
 .nav-menu {
   position: fixed;
@@ -57,10 +52,9 @@ nav .navbar {
   cursor: pointer;
 }
 .nav-logo img {
+  padding-top: 20px;
   width: 200px;
-  height: 50px;
-  border-radius: 4px;
-  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  height: 150px;
 }
 .top-nav {
   height: 2rem;
