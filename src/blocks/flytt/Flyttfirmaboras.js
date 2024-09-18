@@ -111,6 +111,7 @@ const Flyttfirmaboras = ({ videoText }) => {
             och du som kund får en offert på plats om hur vi kan hjälpa dig
             <strong style={{ fontWeight: "700" }}> {mainquery}.</strong>
           </h4>
+          {/* **This is the button that is commented out ( I have to fix it to go to my booking system**
           <button
             type="button"
             onClick={() => setModalOpen(!modalOpen)}
@@ -118,6 +119,7 @@ const Flyttfirmaboras = ({ videoText }) => {
           >
             BOKA
           </button>
+          */}
         </div>
         <LottieBooking lotti={booking} height={400} width={400} />
         {modalOpen && (
