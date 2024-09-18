@@ -1,5 +1,5 @@
 .divider-container {
-  margin-top: 50px;
+  padding-top: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -9,6 +9,7 @@
   font-weight: bold;
   color: #2c3e50;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  background: rgb(248, 247, 247);
 }
 .divider-image {
   object-fit: contain;

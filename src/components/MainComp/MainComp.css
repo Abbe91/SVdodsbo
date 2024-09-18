@@ -1,15 +1,14 @@
 .mainComp {
-  background: white;
+  background: linear-gradient(to bottom, white, #00a7ac);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  position: relative;
-  background-color: #00a7ac;
-  color: white;
+  color: #2c3e50;
   position: relative;
 }
+
 .mainComp h1 {
   opacity: 1 !important;
 }
