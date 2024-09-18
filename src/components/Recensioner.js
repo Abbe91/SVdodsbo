@@ -1,6 +1,9 @@
 import React from "react";
 import { makeStyles, Card } from "@material-ui/core";
 import { Star } from "@material-ui/icons";
+import Slider from "react-slick"; // Import react-slick
+import "slick-carousel/slick/slick.css"; // Import slick styles
+import "slick-carousel/slick/slick-theme.css";
 import { customerReviews } from "../utils/data";
 import googleIcon from "../utils/images/googlereview.png";
 
@@ -21,16 +24,7 @@ const useStyles = makeStyles({
     marginBottom: "2rem",
   },
   reviews: {
-    display: "grid",
-    gridTemplateColumns: "repeat(1, 1fr)",
-    gap: "1rem",
     width: "100%",
-    "@media (min-width: 600px)": {
-      gridTemplateColumns: "repeat(2, 1fr)",
-    },
-    "@media (min-width: 800px)": {
-      gridTemplateColumns: "repeat(4, 1fr)",
-    },
   },
   cardContainer: {
     background: "white",
@@ -40,6 +34,7 @@ const useStyles = makeStyles({
     flexDirection: "column",
     alignItems: "center",
     textAlign: "center",
+    margin: "0 0.5rem", // Add margin for spacing
   },
   card: {
     display: "flex",
@@ -62,8 +57,48 @@ const useStyles = makeStyles({
     marginBottom: "1rem",
   },
 });
+
 const Recensioner = () => {
   const classes = useStyles();
+
+  // Slick settings for the carousel behavior
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4, // Show 1 slide at a time on mobile
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 600, // Show 1 slide on screens smaller than 600px
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 900, // Show 2 slides on screens between 600px and 900px
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1200, // Show 3 slides on screens between 900px and 1200px
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1600, // Show 4 slides on screens larger than 1200px
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
 
   return (
     <div className={classes.root}>
@@ -71,13 +106,13 @@ const Recensioner = () => {
         <h2>Längst erfarenhet</h2>
         <p>
           Vi på Döddsbo Sv är det självklara valet för hantering av bohag och
-          dödsbo med över 50 års erfarenhet tillsammans är vi helt övetygade om
+          dödsbo med över 50 års erfarenhet tillsammans är vi helt övertygade om
           att vi kan erbjuda dig det bästa upplägget för ditt bohag, dödsbo och
           din plånbok. Vårt upptagningsområde sträcker sig över hela Västra
           Götaland.
         </p>
       </section>
-      <section className={classes.reviews}>
+      <Slider {...settings} className={classes.reviews}>
         {customerReviews.map((review) => (
           <div key={review.id} className={classes.cardContainer}>
             <Card className={classes.card}>
@@ -117,7 +152,7 @@ const Recensioner = () => {
             </Card>
           </div>
         ))}
-      </section>
+      </Slider>
     </div>
   );
 };
