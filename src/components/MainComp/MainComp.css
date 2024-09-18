@@ -145,7 +145,6 @@ input:focus {
 }
 
 .hero-points p {
-  margin: 0.5rem 0; /* Adjusted margin for better spacing */
   text-align: center;
   font-size: 2.2rem; /* Font size remains the same */
   color: #0f161d; /* Text color adjusted for readability */
@@ -210,10 +209,38 @@ input:focus {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) and (min-width: 572px) {
+  .hero-image img {
+    width: 50%;
+    border-radius: 5px;
+    object-fit: cover;
+  }
   .content-new-container > div {
     max-width: 100%;
     margin: 1rem;
+  }
+  .mainComp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .mainComp h1 {
+    max-width: 300px;
+    margin: 1rem auto;
+  }
+  .mainComp form {
+    width: 94%;
+  }
+  .main-content-container div {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0rem;
+  }
+  .main-content-container {
+    width: 96%;
   }
 }
 
@@ -285,7 +312,6 @@ input:focus {
 
 .hero-content {
   width: 65%;
-  padding-right: 2rem;
 }
 
 .hero-content h1 {
@@ -316,7 +342,6 @@ input:focus {
   background-color: white;
   width: 450px; /* Adjusted to 80% */
   border-radius: 5px;
-  padding: 0.5rem;
   border: 1px solid #ccc;
 }
 
@@ -349,6 +374,7 @@ input:focus {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   .hero-image img {
   }
+
   .hero-section {
     flex-direction: column; /* Change layout to column for mobile */
     height: 100%; /* Adjust height for mobile */
@@ -356,7 +382,6 @@ input:focus {
 
   .hero-content {
     width: 100%;
-    padding-right: 0;
     padding-bottom: 1rem; /* Add bottom padding for spacing */
   }
 
@@ -388,6 +413,53 @@ input:focus {
 
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .hero-section {
+    flex-direction: column; /* Change layout to column for mobile */
+    height: 100%; /* Adjust height for mobile */
+  }
+
+  .hero-content {
+    width: 100%;
+    padding-bottom: 1rem; /* Add bottom padding for spacing */
+  }
+
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-content .search-bar .search-input {
+    top: -4px;
+    height: 3rem;
+    border-radius: 5px;
+    background-color: white;
+    width: 250px; /* Adjusted to 80% */
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+  }
+
+  .hero-image {
+    width: 100%;
+    padding-top: 1rem; /* Add top padding for spacing */
+  }
+
+  .hero-image img {
+    width: 100%;
+    border-radius: 0;
+  }
+  .hero-points {
+    margin: 0rem;
+    text-align: center;
+    font-size: 1rem; /* Font size remains the same */
+  }
+  .hero-points p {
+    text-align: center;
+    font-size: 1rem; /* Font size remains the same */
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 520px) and (max-device-width: 1080px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   .hero-image img {
   }
   .hero-section {
@@ -397,7 +469,6 @@ input:focus {
 
   .hero-content {
     width: 100%;
-    padding-right: 0;
     padding-bottom: 1rem; /* Add bottom padding for spacing */
   }
 
@@ -426,44 +497,10 @@ input:focus {
     border-radius: 0;
   }
 }
-
-/* Landscape */
-@media only screen and (min-device-width: 520px) and (max-device-width: 1080px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-  .hero-image img {
-  }
-  .hero-section {
-    flex-direction: column; /* Change layout to column for mobile */
-    height: 100%; /* Adjust height for mobile */
-  }
-
-  .hero-content {
-    width: 100%;
-    padding-right: 0;
-    padding-bottom: 1rem; /* Add bottom padding for spacing */
-  }
-
-  .hero-content h1 {
-    font-size: 2.5rem;
-  }
-
-  .hero-content .search-bar .search-input {
-    top: -4px;
-    height: 3rem;
-    border-radius: 5px;
-    background-color: white;
-    width: 250px; /* Adjusted to 80% */
-    border-radius: 5px;
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-  }
-
-  .hero-image {
-    width: 100%;
-    padding-top: 1rem; /* Add top padding for spacing */
-  }
-
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .hero-image img {
     width: 100%;
     border-radius: 0;
+    object-fit: cover;
   }
 }
