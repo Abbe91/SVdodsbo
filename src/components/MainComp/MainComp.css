@@ -315,6 +315,7 @@ input:focus {
 
 .hero-content {
   width: 50%;
+  padding-top: 150px;
 }
 
 .hero-content h1 {
@@ -368,16 +369,12 @@ input:focus {
 }
 
 .hero-image img {
-  width: 100%;
   border-radius: 5px;
   object-fit: cover;
-  width: 850px;
+  width: 775px;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  .hero-image img {
-  }
-
   .hero-section {
     flex-direction: column; /* Change layout to column for mobile */
     height: 100%; /* Adjust height for mobile */
@@ -386,6 +383,7 @@ input:focus {
   .hero-content {
     width: 100%;
     padding-bottom: 1rem; /* Add bottom padding for spacing */
+    padding-top: 0px;
   }
 
   .hero-content h1 {
